@@ -1,0 +1,1179 @@
+2025-04-12 15:45:46,947 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:45:48,282 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:45:48,282 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:45:49,157 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:45:49,157 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:45:49,762 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:45:50,931 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:45:50,932 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:45:51,577 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:45:51,577 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:45:53,826 - fire_prediction - INFO - Home page requested
+2025-04-12 15:46:36,641 - fire_prediction - INFO - Prediction requested for location: Coordinates: 37.8709, -122.2784
+2025-04-12 15:46:36,660 - fire_prediction - INFO - Fire probability calculated: 0.8539
+2025-04-12 15:46:36,665 - fire_prediction - INFO - AI analysis requested for location: Coordinates: 37.8709, -122.2784, probability: 0.8539
+2025-04-12 15:46:36,665 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 15:46:36,666 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 15:46:37,619 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 15:46:37,619 - fire_prediction - ERROR - Failed to parse OpenAI response as JSON: Expecting value: line 1 column 1 (char 0)
+2025-04-12 15:46:37,619 - fire_prediction - ERROR - Response was: ```json
+{
+    "risk_assessment": "High fire risk is present in the area.",
+    "contributing_factors": ["High average temperature", "Low average humidity", "Moderate wind speed"],
+    "recommended_actions": "Residents should ensure proper defensible space around their properties, authorities should increase monitoring and preparedness for potential wildfires."
+}
+```
+2025-04-12 15:46:57,332 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:46:58,529 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:46:58,529 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:46:59,141 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:46:59,141 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:48:28,230 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:48:29,375 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:48:29,376 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:48:29,997 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:48:29,998 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:48:36,147 - fire_prediction - INFO - Home page requested
+2025-04-12 15:48:57,221 - fire_prediction - INFO - Prediction requested for location: Coordinates: 37.8709, -122.2783
+2025-04-12 15:48:57,228 - fire_prediction - INFO - Fire probability calculated: 0.8279
+2025-04-12 15:48:57,234 - fire_prediction - INFO - AI analysis requested for location: Coordinates: 37.8709, -122.2783, probability: 0.8279
+2025-04-12 15:48:57,234 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 15:48:57,234 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 15:48:59,032 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 15:48:59,033 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 15:49:41,959 - fire_prediction - INFO - Prediction requested for location: Coordinates: 37.8709, -122.2783
+2025-04-12 15:49:41,962 - fire_prediction - INFO - Fire probability calculated: 0.9728
+2025-04-12 15:49:41,965 - fire_prediction - INFO - AI analysis requested for location: Coordinates: 37.8709, -122.2783, probability: 0.9728
+2025-04-12 15:49:41,966 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 15:49:41,966 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 15:49:42,832 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 15:49:42,832 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 15:50:01,079 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:50:02,294 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:50:02,294 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:50:02,891 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:50:02,891 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:50:20,013 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:50:21,338 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:50:21,338 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:50:22,165 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:50:22,165 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:51:49,938 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:51:51,100 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:51:51,100 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:51:51,717 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:51:51,718 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:53:39,267 - fire_prediction - INFO - Prediction requested for location: Coordinates: 37.8709, -122.2783
+2025-04-12 15:53:39,271 - fire_prediction - INFO - Fire probability calculated: 0.2961
+2025-04-12 15:53:39,277 - fire_prediction - INFO - AI analysis requested for location: Coordinates: 37.8709, -122.2783, probability: 0.2961
+2025-04-12 15:53:39,277 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 15:53:39,277 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 15:53:40,346 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 15:53:40,346 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 15:54:50,154 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:54:50,174 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:54:51,431 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:54:51,431 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:54:51,449 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:54:51,449 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:54:52,093 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:54:52,094 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:54:52,096 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:54:52,096 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:57:00,060 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:57:01,148 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:57:01,148 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:57:01,681 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:57:01,682 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:59:17,127 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:59:18,257 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:59:18,257 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:59:18,904 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:59:18,904 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:59:19,875 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 15:59:20,996 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 15:59:20,996 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 15:59:21,557 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 15:59:21,557 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 15:59:21,970 - fire_prediction - INFO - Home page requested
+2025-04-12 15:59:25,263 - fire_prediction - INFO - Home page requested
+2025-04-12 16:09:05,704 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:09:06,806 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:09:06,806 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:09:07,381 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:09:07,382 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:09:39,952 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:09:41,053 - fire_prediction - INFO - Home page requested
+2025-04-12 16:09:41,140 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:09:41,140 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:09:41,956 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:09:41,957 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:11:43,111 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:11:44,194 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:11:44,194 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:11:44,775 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:11:44,775 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:11:44,795 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-12 16:11:45,495 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:11:46,611 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:11:46,611 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:11:47,226 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:11:47,226 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:11:47,264 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:11:47,264 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:11:48,076 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:11:48,076 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:11:48,076 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:11:48,076 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:11:48,088 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:11:48,088 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:11:48,089 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:11:48,089 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:12:10,616 - fire_prediction - INFO - Home page requested
+2025-04-12 16:12:13,353 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:12:14,543 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:12:14,543 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:12:15,248 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:12:15,250 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:12:49,850 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:12:51,105 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:12:51,105 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:12:51,719 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:12:51,720 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:15:49,747 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:15:50,904 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:15:50,904 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:15:51,476 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:15:51,476 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:16:44,440 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:16:45,529 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:16:45,530 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:16:46,131 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:16:46,132 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:16:46,151 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-12 16:16:46,841 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:16:47,941 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:16:47,941 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:16:48,506 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:16:48,507 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:16:48,538 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:16:48,538 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:16:49,344 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:16:49,344 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:16:49,345 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:16:49,345 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:16:49,354 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:16:49,354 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:16:49,354 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:16:49,354 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:17:02,208 - fire_prediction - INFO - Home page requested
+2025-04-12 16:17:08,978 - fire_prediction - INFO - Weather data requested for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:17:10,206 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:17:10,207 - fire_prediction.weather - INFO - Calling geocoding API for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:17:10,510 - fire_prediction.weather - WARNING - No location found for: Coordinates: 37.8709, -122.2783
+2025-04-12 16:17:10,510 - fire_prediction - ERROR - Error fetching weather: Could not find coordinates for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:17:10,511 - fire_prediction - ERROR - Error in weather API: 500: Could not find coordinates for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:17:19,729 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:17:20,818 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:17:20,819 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:17:21,382 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:17:21,382 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:17:26,292 - fire_prediction - INFO - Weather data requested for location: Berkeley
+2025-04-12 16:17:26,293 - fire_prediction.weather - INFO - Calling geocoding API for location: Berkeley
+2025-04-12 16:17:26,548 - fire_prediction.weather - INFO - Found coordinates for Berkeley: 37.8708393, -122.272863
+2025-04-12 16:17:26,549 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.8708393, -122.272863
+2025-04-12 16:17:26,678 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2729, 'lat': 37.8708}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.09, 'feels_like': 17.44, 'temp_min': 15.53, 'temp_max': 21.7, 'pressure': 1016, 'humidity': 57, 'sea_level': 1016, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744499850, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465041, 'sunset': 1744512103}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:17:26,679 - fire_prediction.weather - INFO - Successfully fetched current weather for Berkeley, US
+2025-04-12 16:17:26,679 - fire_prediction - INFO - Weather data fetched successfully for Berkeley
+2025-04-12 16:18:37,507 - fire_prediction - INFO - Weather data requested for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:18:37,507 - fire_prediction.weather - INFO - Calling geocoding API for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:18:37,622 - fire_prediction.weather - WARNING - No location found for: Coordinates: 37.8709, -122.2783
+2025-04-12 16:18:37,623 - fire_prediction - ERROR - Error fetching weather: Could not find coordinates for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:18:37,623 - fire_prediction - ERROR - Error in weather API: 500: Could not find coordinates for location: Coordinates: 37.8709, -122.2783
+2025-04-12 16:19:34,059 - fire_prediction - INFO - Weather data requested for location: berkeley
+2025-04-12 16:19:34,060 - fire_prediction.weather - INFO - Calling geocoding API for location: berkeley
+2025-04-12 16:19:34,340 - fire_prediction.weather - INFO - Found coordinates for berkeley: 37.8708393, -122.272863
+2025-04-12 16:19:34,341 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.8708393, -122.272863
+2025-04-12 16:19:34,460 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2681, 'lat': 37.8703}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.07, 'feels_like': 17.42, 'temp_min': 15.48, 'temp_max': 21.67, 'pressure': 1016, 'humidity': 57, 'sea_level': 1016, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744499715, 'sys': {'type': 2, 'id': 2099819, 'country': 'US', 'sunrise': 1744465040, 'sunset': 1744512102}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:19:34,460 - fire_prediction.weather - INFO - Successfully fetched current weather for Berkeley, US
+2025-04-12 16:19:34,461 - fire_prediction - INFO - Weather data fetched successfully for berkeley
+2025-04-12 16:20:07,668 - fire_prediction - INFO - Weather data requested for location: San Jose
+2025-04-12 16:20:07,668 - fire_prediction.weather - INFO - Calling geocoding API for location: San Jose
+2025-04-12 16:20:07,931 - fire_prediction.weather - INFO - Found coordinates for San Jose: 37.3361663, -121.890591
+2025-04-12 16:20:07,932 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.3361663, -121.890591
+2025-04-12 16:20:08,060 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -121.8906, 'lat': 37.3362}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 20.51, 'feels_like': 19.82, 'temp_min': 18.75, 'temp_max': 22.41, 'pressure': 1016, 'humidity': 46, 'sea_level': 1016, 'grnd_level': 986}, 'visibility': 10000, 'wind': {'speed': 5.14, 'deg': 340}, 'clouds': {'all': 20}, 'dt': 1744499441, 'sys': {'type': 1, 'id': 5845, 'country': 'US', 'sunrise': 1744464984, 'sunset': 1744511978}, 'timezone': -25200, 'id': 5392171, 'name': 'San Jose', 'cod': 200}
+2025-04-12 16:20:08,061 - fire_prediction.weather - INFO - Successfully fetched current weather for San Jose, US
+2025-04-12 16:20:08,061 - fire_prediction - INFO - Weather data fetched successfully for San Jose
+2025-04-12 16:21:04,222 - fire_prediction - INFO - Weather data requested for location: Las Vegas
+2025-04-12 16:21:04,223 - fire_prediction.weather - INFO - Calling geocoding API for location: Las Vegas
+2025-04-12 16:21:04,482 - fire_prediction.weather - INFO - Found coordinates for Las Vegas: 36.1672559, -115.148516
+2025-04-12 16:21:04,483 - fire_prediction.weather - INFO - Calling weather API for coordinates: 36.1672559, -115.148516
+2025-04-12 16:21:04,595 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -115.1485, 'lat': 36.1673}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 31.9, 'feels_like': 29.74, 'temp_min': 30.73, 'temp_max': 32.78, 'pressure': 1006, 'humidity': 7, 'sea_level': 1006, 'grnd_level': 935}, 'visibility': 10000, 'wind': {'speed': 10.29, 'deg': 210}, 'clouds': {'all': 0}, 'dt': 1744499965, 'sys': {'type': 1, 'id': 6171, 'country': 'US', 'sunrise': 1744463440, 'sunset': 1744510286}, 'timezone': -25200, 'id': 5506956, 'name': 'Las Vegas', 'cod': 200}
+2025-04-12 16:21:04,595 - fire_prediction.weather - INFO - Successfully fetched current weather for Las Vegas, US
+2025-04-12 16:21:04,595 - fire_prediction - INFO - Weather data fetched successfully for Las Vegas
+2025-04-12 16:21:31,319 - fire_prediction - INFO - Weather data requested for location: Beijing
+2025-04-12 16:21:31,319 - fire_prediction.weather - INFO - Calling geocoding API for location: Beijing
+2025-04-12 16:21:31,935 - fire_prediction.weather - INFO - Found coordinates for Beijing: 39.906217, 116.3912757
+2025-04-12 16:21:31,935 - fire_prediction.weather - INFO - Calling weather API for coordinates: 39.906217, 116.3912757
+2025-04-12 16:21:32,051 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': 116.3913, 'lat': 39.9062}, 'weather': [{'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03d'}], 'base': 'stations', 'main': {'temp': 7.94, 'feels_like': 3.94, 'temp_min': 7.94, 'temp_max': 7.94, 'pressure': 1003, 'humidity': 14, 'sea_level': 1003, 'grnd_level': 998}, 'visibility': 10000, 'wind': {'speed': 8.2, 'deg': 315, 'gust': 18.85}, 'clouds': {'all': 48}, 'dt': 1744500096, 'sys': {'type': 1, 'id': 9609, 'country': 'CN', 'sunrise': 1744493997, 'sunset': 1744541379}, 'timezone': 28800, 'id': 1816670, 'name': 'Beijing', 'cod': 200}
+2025-04-12 16:21:32,051 - fire_prediction.weather - INFO - Successfully fetched current weather for Beijing, CN
+2025-04-12 16:21:32,052 - fire_prediction - INFO - Weather data fetched successfully for Beijing
+2025-04-12 16:24:50,104 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:24:50,158 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:24:51,358 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:24:51,358 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:24:51,416 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:24:51,416 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:24:52,039 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:24:52,039 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:24:52,076 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:24:52,076 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:24:52,077 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:24:52,077 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:24:52,919 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:24:52,919 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:24:52,920 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:24:52,920 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:24:52,930 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:24:52,930 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:24:52,930 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:24:52,930 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:25:09,221 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:25:10,343 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:25:10,343 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:25:10,946 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:25:10,947 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:25:10,968 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-12 16:25:11,708 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:25:12,844 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:25:12,844 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:25:13,489 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:25:13,490 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:25:13,526 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:25:13,526 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:25:14,334 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:25:14,334 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:25:14,335 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:25:14,335 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:25:14,345 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:25:14,345 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:25:14,345 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:25:14,345 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:25:17,410 - fire_prediction - INFO - Home page requested
+2025-04-12 16:25:20,384 - fire_prediction - INFO - Weather data requested for location: 37.870931,-122.278338
+2025-04-12 16:25:21,223 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:25:21,223 - fire_prediction - INFO - Calling weather service for location: 37.870931,-122.278338
+2025-04-12 16:25:21,223 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870931, -122.278338
+2025-04-12 16:25:21,363 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.11, 'feels_like': 17.49, 'temp_min': 15.31, 'temp_max': 21.79, 'pressure': 1016, 'humidity': 58, 'sea_level': 1016, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744500325, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:25:21,363 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870931,-122.278338
+2025-04-12 16:25:21,364 - fire_prediction - INFO - Weather data processed successfully for 37.870931,-122.278338
+2025-04-12 16:25:35,491 - fire_prediction - INFO - Weather data requested for location: berkeley
+2025-04-12 16:25:35,491 - fire_prediction - INFO - Calling weather service for location: berkeley
+2025-04-12 16:25:35,491 - fire_prediction.weather - INFO - Calling geocoding API for location: berkeley
+2025-04-12 16:25:35,757 - fire_prediction.weather - INFO - Found coordinates for berkeley: 37.8708393, -122.272863
+2025-04-12 16:25:35,758 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.8708393, -122.272863
+2025-04-12 16:25:35,875 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2729, 'lat': 37.8708}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.14, 'feels_like': 17.52, 'temp_min': 15.22, 'temp_max': 21.7, 'pressure': 1016, 'humidity': 58, 'sea_level': 1016, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744500339, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465041, 'sunset': 1744512103}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:25:35,876 - fire_prediction.weather - INFO - Successfully fetched current weather for Berkeley, US
+2025-04-12 16:25:35,876 - fire_prediction - INFO - Weather data processed successfully for berkeley
+2025-04-12 16:25:43,205 - fire_prediction - INFO - Weather data requested for location: 37.870911,-122.278333
+2025-04-12 16:25:43,206 - fire_prediction - INFO - Calling weather service for location: 37.870911,-122.278333
+2025-04-12 16:25:43,206 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870911, -122.278333
+2025-04-12 16:25:43,313 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.11, 'feels_like': 17.49, 'temp_min': 15.31, 'temp_max': 21.79, 'pressure': 1016, 'humidity': 58, 'sea_level': 1016, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744500325, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:25:43,313 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870911,-122.278333
+2025-04-12 16:25:43,314 - fire_prediction - INFO - Weather data processed successfully for 37.870911,-122.278333
+2025-04-12 16:25:54,325 - fire_prediction - INFO - Prediction requested for location: 37.870911,-122.278333
+2025-04-12 16:25:54,331 - fire_prediction - INFO - Fire probability calculated: 0.0
+2025-04-12 16:25:54,335 - fire_prediction - INFO - AI analysis requested for location: 37.870911,-122.278333, probability: 0.0
+2025-04-12 16:25:54,335 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:25:54,335 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:25:55,472 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:25:55,472 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:26:19,848 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:26:20,969 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:26:20,970 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:26:21,537 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:26:21,538 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:26:28,513 - fire_prediction - INFO - Weather data requested for location: 37.870950,-122.278344
+2025-04-12 16:26:28,514 - fire_prediction - INFO - Calling weather service for location: 37.870950,-122.278344
+2025-04-12 16:26:28,514 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.87095, -122.278344
+2025-04-12 16:26:28,643 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.871}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.14, 'feels_like': 17.52, 'temp_min': 15.31, 'temp_max': 21.79, 'pressure': 1016, 'humidity': 58, 'sea_level': 1016, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744500392, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:26:28,644 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.87095,-122.278344
+2025-04-12 16:26:28,644 - fire_prediction - INFO - Weather data processed successfully for 37.870950,-122.278344
+2025-04-12 16:27:50,864 - fire_prediction - INFO - Weather data requested for location: Los Angeles
+2025-04-12 16:27:50,865 - fire_prediction - INFO - Calling weather service for location: Los Angeles
+2025-04-12 16:27:50,865 - fire_prediction.weather - INFO - Calling geocoding API for location: Los Angeles
+2025-04-12 16:27:51,154 - fire_prediction.weather - INFO - Found coordinates for Los Angeles: 34.0536909, -118.242766
+2025-04-12 16:27:51,154 - fire_prediction.weather - INFO - Calling weather API for coordinates: 34.0536909, -118.242766
+2025-04-12 16:27:51,267 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -118.2428, 'lat': 34.0537}, 'weather': [{'id': 721, 'main': 'Haze', 'description': 'haze', 'icon': '50d'}], 'base': 'stations', 'main': {'temp': 21.31, 'feels_like': 21.19, 'temp_min': 16.65, 'temp_max': 25.73, 'pressure': 1013, 'humidity': 65, 'sea_level': 1013, 'grnd_level': 993}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 260}, 'clouds': {'all': 0}, 'dt': 1744500467, 'sys': {'type': 2, 'id': 2075946, 'country': 'US', 'sunrise': 1744464308, 'sunset': 1744510903}, 'timezone': -25200, 'id': 5368361, 'name': 'Los Angeles', 'cod': 200}
+2025-04-12 16:27:51,267 - fire_prediction.weather - INFO - Successfully fetched current weather for Los Angeles, US
+2025-04-12 16:27:51,267 - fire_prediction - INFO - Weather data processed successfully for Los Angeles
+2025-04-12 16:27:53,659 - fire_prediction - INFO - Prediction requested for location: 37.870950,-122.278344
+2025-04-12 16:27:53,663 - fire_prediction - INFO - Fire probability calculated: 0.0013
+2025-04-12 16:27:53,666 - fire_prediction - INFO - AI analysis requested for location: 37.870950,-122.278344, probability: 0.0013
+2025-04-12 16:27:53,666 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:27:53,666 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:27:54,496 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:27:54,497 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:30:09,161 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:30:10,243 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:30:10,244 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:30:10,812 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:30:10,812 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:30:10,849 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:30:10,849 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:30:11,647 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:30:11,647 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:30:11,648 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:30:11,648 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:30:11,657 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:30:11,657 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:30:11,657 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:30:11,657 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:30:49,837 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:30:50,977 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:30:50,978 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:30:51,599 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:30:51,599 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:32:13,158 - fire_prediction - INFO - Home page requested
+2025-04-12 16:32:14,636 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:32:15,775 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:32:15,776 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:32:16,375 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:32:16,375 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:32:22,608 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:32:23,724 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:32:23,725 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:32:24,286 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:32:24,286 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:32:24,318 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:32:24,318 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:32:25,211 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:32:25,211 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:32:25,211 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:32:25,211 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:32:25,220 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:32:25,220 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:32:25,220 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:32:25,220 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:32:59,907 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:33:01,015 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:33:01,016 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:33:01,608 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:33:01,609 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:33:03,797 - fire_prediction - INFO - Home page requested
+2025-04-12 16:33:13,412 - fire_prediction - INFO - Weather data requested for location: 37.870927,-122.278332, date: 2025-04-12
+2025-04-12 16:33:14,531 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:33:14,531 - fire_prediction - INFO - Parsed date: 2025-04-12
+2025-04-12 16:33:14,531 - fire_prediction - INFO - Calling weather service for location: 37.870927,-122.278332, date: 2025-04-12
+2025-04-12 16:33:14,531 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870927, -122.278332
+2025-04-12 16:33:14,678 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.871}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.14, 'feels_like': 17.52, 'temp_min': 15.31, 'temp_max': 21.79, 'pressure': 1016, 'humidity': 58, 'sea_level': 1016, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744500392, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:33:14,679 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870927,-122.278332
+2025-04-12 16:33:14,679 - fire_prediction - INFO - Weather data processed successfully for 37.870927,-122.278332, date: 2025-04-12
+2025-04-12 16:34:43,839 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:34:44,961 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:34:44,961 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:34:45,550 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:34:45,550 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:34:45,571 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-12 16:34:46,285 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:34:47,405 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:34:47,405 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:34:48,035 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:34:48,035 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:34:48,068 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:34:48,068 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:34:48,892 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:34:48,892 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:34:48,892 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:34:48,892 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:34:48,902 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:34:48,902 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:34:48,902 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:34:48,902 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:35:01,775 - fire_prediction - INFO - Home page requested
+2025-04-12 16:35:12,567 - fire_prediction - INFO - Weather data requested for location: Unknown location, date: 2025-04-09
+2025-04-12 16:35:12,567 - fire_prediction - INFO - Parsed date: 2025-04-09
+2025-04-12 16:35:12,567 - fire_prediction - INFO - Calling weather service for location: Unknown location, date: 2025-04-09
+2025-04-12 16:35:12,567 - fire_prediction.weather - INFO - Calling geocoding API for location: Unknown location
+2025-04-12 16:35:13,098 - fire_prediction.weather - WARNING - No location found for: Unknown location
+2025-04-12 16:35:13,099 - fire_prediction - ERROR - Error fetching weather: Could not find coordinates for location: Unknown location
+2025-04-12 16:35:13,100 - fire_prediction - ERROR - Error in weather API: 500: Could not find coordinates for location: Unknown location
+2025-04-12 16:35:16,055 - fire_prediction - INFO - Weather data requested for location: 37.870931,-122.278342, date: 2025-04-09
+2025-04-12 16:35:16,055 - fire_prediction - INFO - Parsed date: 2025-04-09
+2025-04-12 16:35:16,056 - fire_prediction - INFO - Calling weather service for location: 37.870931,-122.278342, date: 2025-04-09
+2025-04-12 16:35:16,056 - fire_prediction.weather - INFO - Generated synthetic weather data for Coordinates 37.870931,-122.278342 on 2025-04-09
+2025-04-12 16:35:16,056 - fire_prediction - INFO - Weather data processed successfully for 37.870931,-122.278342, date: 2025-04-09
+2025-04-12 16:35:24,680 - fire_prediction - INFO - Weather data requested for location: 37.870931,-122.278342, date: 2025-04-01
+2025-04-12 16:35:24,681 - fire_prediction - INFO - Parsed date: 2025-04-01
+2025-04-12 16:35:24,681 - fire_prediction - INFO - Calling weather service for location: 37.870931,-122.278342, date: 2025-04-01
+2025-04-12 16:35:24,681 - fire_prediction.weather - INFO - Generated synthetic weather data for Coordinates 37.870931,-122.278342 on 2025-04-01
+2025-04-12 16:35:24,681 - fire_prediction - INFO - Weather data processed successfully for 37.870931,-122.278342, date: 2025-04-01
+2025-04-12 16:35:57,730 - fire_prediction - INFO - Weather data requested for location: los angeles, date: 2025-04-01
+2025-04-12 16:35:57,730 - fire_prediction - INFO - Parsed date: 2025-04-01
+2025-04-12 16:35:57,730 - fire_prediction - INFO - Calling weather service for location: los angeles, date: 2025-04-01
+2025-04-12 16:35:57,730 - fire_prediction.weather - INFO - Calling geocoding API for location: los angeles
+2025-04-12 16:35:57,850 - fire_prediction.weather - INFO - Found coordinates for los angeles: 34.0536909, -118.242766
+2025-04-12 16:35:57,851 - fire_prediction.weather - INFO - Generated synthetic weather data for Los Angeles, US on 2025-04-01
+2025-04-12 16:35:57,851 - fire_prediction - INFO - Weather data processed successfully for los angeles, date: 2025-04-01
+2025-04-12 16:36:27,041 - fire_prediction - INFO - Weather data requested for location: los angeles, date: 2025-01-07
+2025-04-12 16:36:27,042 - fire_prediction - INFO - Parsed date: 2025-01-07
+2025-04-12 16:36:27,042 - fire_prediction - INFO - Calling weather service for location: los angeles, date: 2025-01-07
+2025-04-12 16:36:27,042 - fire_prediction.weather - INFO - Calling geocoding API for location: los angeles
+2025-04-12 16:36:27,150 - fire_prediction.weather - INFO - Found coordinates for los angeles: 34.0536909, -118.242766
+2025-04-12 16:36:27,150 - fire_prediction.weather - INFO - Generated synthetic weather data for Los Angeles, US on 2025-01-07
+2025-04-12 16:36:27,150 - fire_prediction - INFO - Weather data processed successfully for los angeles, date: 2025-01-07
+2025-04-12 16:36:56,976 - fire_prediction - INFO - Weather data requested for location: Los Angeles, date: 2025-01-07
+2025-04-12 16:36:56,976 - fire_prediction - INFO - Parsed date: 2025-01-07
+2025-04-12 16:36:56,976 - fire_prediction - INFO - Calling weather service for location: Los Angeles, date: 2025-01-07
+2025-04-12 16:36:56,977 - fire_prediction.weather - INFO - Calling geocoding API for location: Los Angeles
+2025-04-12 16:36:57,101 - fire_prediction.weather - INFO - Found coordinates for Los Angeles: 34.0536909, -118.242766
+2025-04-12 16:36:57,102 - fire_prediction.weather - INFO - Generated synthetic weather data for Los Angeles, US on 2025-01-07
+2025-04-12 16:36:57,102 - fire_prediction - INFO - Weather data processed successfully for Los Angeles, date: 2025-01-07
+2025-04-12 16:37:23,509 - fire_prediction - INFO - Weather data requested for location: Los Angeles, date: 2025-02-07
+2025-04-12 16:37:23,509 - fire_prediction - INFO - Parsed date: 2025-02-07
+2025-04-12 16:37:23,509 - fire_prediction - INFO - Calling weather service for location: Los Angeles, date: 2025-02-07
+2025-04-12 16:37:23,509 - fire_prediction.weather - INFO - Calling geocoding API for location: Los Angeles
+2025-04-12 16:37:23,626 - fire_prediction.weather - INFO - Found coordinates for Los Angeles: 34.0536909, -118.242766
+2025-04-12 16:37:23,627 - fire_prediction.weather - INFO - Generated synthetic weather data for Los Angeles, US on 2025-02-07
+2025-04-12 16:37:23,627 - fire_prediction - INFO - Weather data processed successfully for Los Angeles, date: 2025-02-07
+2025-04-12 16:37:48,842 - fire_prediction - INFO - Weather data requested for location: Santa Monica, date: 2025-02-07
+2025-04-12 16:37:48,843 - fire_prediction - INFO - Parsed date: 2025-02-07
+2025-04-12 16:37:48,843 - fire_prediction - INFO - Calling weather service for location: Santa Monica, date: 2025-02-07
+2025-04-12 16:37:48,843 - fire_prediction.weather - INFO - Calling geocoding API for location: Santa Monica
+2025-04-12 16:37:49,115 - fire_prediction.weather - INFO - Found coordinates for Santa Monica: 34.0194704, -118.491227
+2025-04-12 16:37:49,116 - fire_prediction.weather - INFO - Generated synthetic weather data for Santa Monica, US on 2025-02-07
+2025-04-12 16:37:49,116 - fire_prediction - INFO - Weather data processed successfully for Santa Monica, date: 2025-02-07
+2025-04-12 16:37:52,022 - fire_prediction - INFO - Prediction requested for location: los angelas
+2025-04-12 16:37:52,027 - fire_prediction - INFO - Fire probability calculated: 0.0
+2025-04-12 16:37:52,030 - fire_prediction - INFO - AI analysis requested for location: los angelas, probability: 0.0
+2025-04-12 16:37:52,030 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:37:52,030 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:37:52,777 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:37:52,777 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:39:16,604 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:39:17,721 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:39:17,722 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:39:18,302 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:39:18,302 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:39:20,744 - fire_prediction - INFO - Home page requested
+2025-04-12 16:39:20,744 - fire_prediction - INFO - Home page requested
+2025-04-12 16:39:23,173 - fire_prediction - INFO - Weather data requested for location: 37.870933,-122.278327, date: 2025-04-12
+2025-04-12 16:39:23,173 - fire_prediction - INFO - Weather data requested for location: 37.870933,-122.278327, date: 2025-04-12
+2025-04-12 16:39:23,976 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:39:23,976 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:39:23,977 - fire_prediction - INFO - Parsed date: 2025-04-12
+2025-04-12 16:39:23,977 - fire_prediction - INFO - Parsed date: 2025-04-12
+2025-04-12 16:39:23,977 - fire_prediction - INFO - Calling weather service for location: 37.870933,-122.278327, date: 2025-04-12
+2025-04-12 16:39:23,977 - fire_prediction - INFO - Calling weather service for location: 37.870933,-122.278327, date: 2025-04-12
+2025-04-12 16:39:23,977 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870933, -122.278327
+2025-04-12 16:39:23,977 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870933, -122.278327
+2025-04-12 16:39:24,119 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.09, 'feels_like': 17.44, 'temp_min': 15.31, 'temp_max': 21.51, 'pressure': 1015, 'humidity': 57, 'sea_level': 1015, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744501168, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:39:24,119 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.09, 'feels_like': 17.44, 'temp_min': 15.31, 'temp_max': 21.51, 'pressure': 1015, 'humidity': 57, 'sea_level': 1015, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744501168, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:39:24,120 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870933,-122.278327
+2025-04-12 16:39:24,120 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870933,-122.278327
+2025-04-12 16:39:24,120 - fire_prediction - INFO - Weather data processed successfully for 37.870933,-122.278327, date: 2025-04-12
+2025-04-12 16:39:24,120 - fire_prediction - INFO - Weather data processed successfully for 37.870933,-122.278327, date: 2025-04-12
+2025-04-12 16:40:39,961 - fire_prediction - INFO - Prediction requested for location: 37.870933,-122.278327
+2025-04-12 16:40:39,961 - fire_prediction - INFO - Prediction requested for location: 37.870933,-122.278327
+2025-04-12 16:40:39,967 - fire_prediction - INFO - Fire probability calculated: 0.0001
+2025-04-12 16:40:39,967 - fire_prediction - INFO - Fire probability calculated: 0.0001
+2025-04-12 16:40:39,972 - fire_prediction - INFO - AI analysis requested for location: 37.870933,-122.278327, probability: 0.0001
+2025-04-12 16:40:39,972 - fire_prediction - INFO - AI analysis requested for location: 37.870933,-122.278327, probability: 0.0001
+2025-04-12 16:40:39,972 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:40:39,972 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:40:39,972 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:40:39,972 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:40:40,732 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:40:40,732 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:40:40,733 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:40:40,733 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:40:48,676 - fire_prediction - INFO - Prediction requested for location: 37.870933,-122.278327
+2025-04-12 16:40:48,676 - fire_prediction - INFO - Prediction requested for location: 37.870933,-122.278327
+2025-04-12 16:40:48,682 - fire_prediction - INFO - Fire probability calculated: 0.0001
+2025-04-12 16:40:48,682 - fire_prediction - INFO - Fire probability calculated: 0.0001
+2025-04-12 16:40:48,686 - fire_prediction - INFO - AI analysis requested for location: 37.870933,-122.278327, probability: 0.0001
+2025-04-12 16:40:48,686 - fire_prediction - INFO - AI analysis requested for location: 37.870933,-122.278327, probability: 0.0001
+2025-04-12 16:40:48,686 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:40:48,686 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:40:48,686 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:40:48,686 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:40:49,429 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:40:49,429 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:40:49,429 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:40:49,429 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:41:04,259 - fire_prediction - INFO - Prediction requested for location: 37.870933,-122.278327
+2025-04-12 16:41:04,259 - fire_prediction - INFO - Prediction requested for location: 37.870933,-122.278327
+2025-04-12 16:41:04,264 - fire_prediction - INFO - Fire probability calculated: 0.0001
+2025-04-12 16:41:04,264 - fire_prediction - INFO - Fire probability calculated: 0.0001
+2025-04-12 16:41:04,268 - fire_prediction - INFO - AI analysis requested for location: 37.870933,-122.278327, probability: 0.0001
+2025-04-12 16:41:04,268 - fire_prediction - INFO - AI analysis requested for location: 37.870933,-122.278327, probability: 0.0001
+2025-04-12 16:41:04,268 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:41:04,268 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:41:04,268 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:41:04,268 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:41:05,369 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:41:05,369 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:41:05,369 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:41:05,369 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:44:17,522 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:44:18,685 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:44:18,686 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:44:19,398 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:44:19,398 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:44:20,202 - fire_prediction - INFO - Environment variables loaded
+2025-04-12 16:44:21,386 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:44:21,386 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:44:22,057 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:44:22,057 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:44:44,312 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:44:45,444 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:44:45,445 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:44:46,051 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:44:46,052 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:44:46,091 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:44:46,091 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:44:46,963 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:44:46,963 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:44:46,963 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:44:46,963 - fire_prediction - INFO - Found model at: Prediction Model\fire_prediction_model.pkl
+2025-04-12 16:44:46,973 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:44:46,973 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:44:46,974 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:44:46,974 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:45:52,056 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:45:53,249 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:45:53,249 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:45:53,878 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:45:53,878 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:46:00,838 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:46:02,017 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:46:02,018 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:46:02,622 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:46:02,623 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:46:04,483 - fire_prediction - INFO - Home page requested
+2025-04-12 16:46:04,483 - fire_prediction - INFO - Home page requested
+2025-04-12 16:46:06,634 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:46:07,868 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:46:07,868 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:46:08,504 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:46:08,505 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:46:08,540 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:46:08,540 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:46:09,381 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:46:09,381 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:46:09,382 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:46:09,382 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:46:09,391 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:46:09,391 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:46:09,391 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:46:09,391 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:46:09,396 - fire_prediction - INFO - Weather data requested for location: 37.870928,-122.278324, date: 2025-04-12
+2025-04-12 16:46:09,396 - fire_prediction - INFO - Weather data requested for location: 37.870928,-122.278324, date: 2025-04-12
+2025-04-12 16:46:10,243 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:46:10,243 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-12 16:46:10,244 - fire_prediction - INFO - Parsed date: 2025-04-12
+2025-04-12 16:46:10,244 - fire_prediction - INFO - Parsed date: 2025-04-12
+2025-04-12 16:46:10,245 - fire_prediction - INFO - Calling weather service for location: 37.870928,-122.278324, date: 2025-04-12
+2025-04-12 16:46:10,245 - fire_prediction - INFO - Calling weather service for location: 37.870928,-122.278324, date: 2025-04-12
+2025-04-12 16:46:10,245 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870928, -122.278324
+2025-04-12 16:46:10,245 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870928, -122.278324
+2025-04-12 16:46:10,385 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.1, 'feels_like': 17.48, 'temp_min': 15.06, 'temp_max': 21.75, 'pressure': 1015, 'humidity': 58, 'sea_level': 1015, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744501574, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:46:10,385 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 18.1, 'feels_like': 17.48, 'temp_min': 15.06, 'temp_max': 21.75, 'pressure': 1015, 'humidity': 58, 'sea_level': 1015, 'grnd_level': 1008}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 270}, 'clouds': {'all': 20}, 'dt': 1744501574, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744465043, 'sunset': 1744512105}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-12 16:46:10,386 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870928,-122.278324
+2025-04-12 16:46:10,386 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870928,-122.278324
+2025-04-12 16:46:10,387 - fire_prediction - INFO - Weather data processed successfully for 37.870928,-122.278324, date: 2025-04-12
+2025-04-12 16:46:10,387 - fire_prediction - INFO - Weather data processed successfully for 37.870928,-122.278324, date: 2025-04-12
+2025-04-12 16:46:12,758 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 16:46:12,758 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 16:46:12,763 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-12 16:46:12,763 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-12 16:46:12,773 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.0
+2025-04-12 16:46:12,773 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.0
+2025-04-12 16:46:12,773 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:46:12,773 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 16:46:12,773 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:46:12,773 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 16:46:13,601 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:46:13,601 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 16:46:13,601 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:46:13,601 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 16:48:49,977 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:48:51,123 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:48:51,123 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:48:51,720 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:48:51,720 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:56:01,274 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:56:02,437 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:56:02,438 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:56:03,115 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:56:03,115 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:56:08,258 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:56:09,433 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:56:09,434 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:56:10,028 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:56:10,028 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:56:10,060 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:56:10,060 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:56:10,935 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:56:10,935 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:56:10,935 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:56:10,935 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:56:10,944 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:56:10,944 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:56:10,945 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:56:10,945 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 16:57:50,125 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 16:57:51,291 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 16:57:51,291 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 16:57:51,899 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 16:57:51,899 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 17:00:29,360 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 17:00:29,360 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 17:00:29,366 - fire_prediction - INFO - Fire probability calculated using local model: 0.9997
+2025-04-12 17:00:29,366 - fire_prediction - INFO - Fire probability calculated using local model: 0.9997
+2025-04-12 17:00:29,370 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.9997
+2025-04-12 17:00:29,370 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.9997
+2025-04-12 17:00:29,370 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 17:00:29,370 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 17:00:29,370 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 17:00:29,370 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 17:00:30,510 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 17:00:30,510 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 17:00:30,511 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 17:00:30,511 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 17:00:46,500 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 17:00:46,500 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 17:00:46,506 - fire_prediction - INFO - Fire probability calculated using local model: 0.9999
+2025-04-12 17:00:46,506 - fire_prediction - INFO - Fire probability calculated using local model: 0.9999
+2025-04-12 17:00:46,509 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.9999
+2025-04-12 17:00:46,509 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.9999
+2025-04-12 17:00:46,509 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 17:00:46,509 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 17:00:46,510 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 17:00:46,510 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 17:00:47,643 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 17:00:47,643 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 17:00:47,643 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 17:00:47,643 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 17:00:57,071 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 17:00:57,071 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278324
+2025-04-12 17:00:57,075 - fire_prediction - INFO - Fire probability calculated using local model: 0.9998
+2025-04-12 17:00:57,075 - fire_prediction - INFO - Fire probability calculated using local model: 0.9998
+2025-04-12 17:00:57,078 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.9998
+2025-04-12 17:00:57,078 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278324, probability: 0.9998
+2025-04-12 17:00:57,078 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 17:00:57,078 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-12 17:00:57,079 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 17:00:57,079 - fire_prediction - INFO - Calling OpenAI API
+2025-04-12 17:00:57,995 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 17:00:57,995 - fire_prediction - INFO - Received OpenAI response
+2025-04-12 17:00:57,996 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 17:00:57,996 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-12 23:43:21,657 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:43:23,175 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:43:23,175 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:43:24,342 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:43:24,343 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:43:24,898 - fire_prediction - INFO - Home page requested
+2025-04-12 23:43:24,898 - fire_prediction - INFO - Home page requested
+2025-04-12 23:44:17,959 - fire_prediction - INFO - Home page requested
+2025-04-12 23:44:17,959 - fire_prediction - INFO - Home page requested
+2025-04-12 23:48:04,477 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:48:05,837 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:48:05,838 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:48:06,625 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:48:06,626 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:48:34,789 - fire_prediction - INFO - Home page requested
+2025-04-12 23:48:34,789 - fire_prediction - INFO - Home page requested
+2025-04-12 23:49:10,136 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:49:11,311 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:49:11,311 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:49:11,955 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:49:11,956 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:49:13,941 - fire_prediction - INFO - Home page requested
+2025-04-12 23:49:13,941 - fire_prediction - INFO - Home page requested
+2025-04-12 23:49:36,034 - fire_prediction - INFO - Home page requested
+2025-04-12 23:49:36,034 - fire_prediction - INFO - Home page requested
+2025-04-12 23:50:41,300 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:50:42,488 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:50:42,488 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:50:43,212 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:50:43,212 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:53:32,717 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:53:33,902 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:53:33,902 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:53:34,396 - fire_prediction - INFO - Home page requested
+2025-04-12 23:53:34,396 - fire_prediction - INFO - Home page requested
+2025-04-12 23:53:34,918 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:53:34,919 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:53:35,209 - fire_prediction - INFO - Home page requested
+2025-04-12 23:53:35,209 - fire_prediction - INFO - Home page requested
+2025-04-12 23:53:53,746 - fire_prediction - INFO - Home page requested
+2025-04-12 23:53:53,746 - fire_prediction - INFO - Home page requested
+2025-04-12 23:55:40,850 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:55:42,128 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:55:42,129 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:55:42,895 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:55:42,896 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:55:44,995 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:55:46,195 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:55:46,196 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:55:46,875 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:55:46,876 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:55:47,970 - fire_prediction - INFO - Home page requested
+2025-04-12 23:55:47,970 - fire_prediction - INFO - Home page requested
+2025-04-12 23:56:09,220 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:56:10,369 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:56:10,369 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:56:10,940 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:56:10,940 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:56:21,134 - fire_prediction - INFO - Home page requested
+2025-04-12 23:56:21,134 - fire_prediction - INFO - Home page requested
+2025-04-12 23:58:04,849 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:58:05,961 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:58:05,961 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:58:06,549 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:58:06,550 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:58:35,119 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:58:35,179 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:58:36,535 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:58:36,535 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:58:36,574 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:58:36,574 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:58:37,376 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:58:37,377 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:58:37,377 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:59:26,054 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:59:27,271 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:59:27,271 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:59:27,967 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:59:27,967 - fire_prediction - INFO - FastAPI application initialized
+2025-04-12 23:59:37,977 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-12 23:59:39,178 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-12 23:59:39,178 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-12 23:59:39,288 - fire_prediction - INFO - Home page requested
+2025-04-12 23:59:39,288 - fire_prediction - INFO - Home page requested
+2025-04-12 23:59:40,288 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-12 23:59:40,289 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:04:55,197 - fire_prediction - INFO - Home page requested
+2025-04-13 00:04:55,197 - fire_prediction - INFO - Home page requested
+2025-04-13 00:05:14,698 - fire_prediction - INFO - Home page requested
+2025-04-13 00:05:14,698 - fire_prediction - INFO - Home page requested
+2025-04-13 00:06:18,936 - fire_prediction - INFO - Home page requested
+2025-04-13 00:06:18,936 - fire_prediction - INFO - Home page requested
+2025-04-13 00:13:54,672 - fire_prediction - INFO - Home page requested
+2025-04-13 00:13:54,672 - fire_prediction - INFO - Home page requested
+2025-04-13 00:23:08,306 - fire_prediction - INFO - Home page requested
+2025-04-13 00:23:08,306 - fire_prediction - INFO - Home page requested
+2025-04-13 00:29:13,394 - fire_prediction - INFO - Home page requested
+2025-04-13 00:29:13,394 - fire_prediction - INFO - Home page requested
+2025-04-13 00:32:33,743 - fire_prediction - INFO - Home page requested
+2025-04-13 00:32:33,743 - fire_prediction - INFO - Home page requested
+2025-04-13 22:58:45,717 - fire_prediction - INFO - API status requested
+2025-04-13 22:58:45,717 - fire_prediction - INFO - API status requested
+2025-04-13 22:59:18,698 - fire_prediction - INFO - Home page requested
+2025-04-13 22:59:18,698 - fire_prediction - INFO - Home page requested
+2025-04-13 23:02:26,711 - fire_prediction - INFO - Home page requested
+2025-04-13 23:02:26,711 - fire_prediction - INFO - Home page requested
+2025-04-13 23:02:27,525 - fire_prediction - INFO - Home page requested
+2025-04-13 23:02:27,525 - fire_prediction - INFO - Home page requested
+2025-04-13 23:02:50,560 - fire_prediction - INFO - Home page requested
+2025-04-13 23:02:50,560 - fire_prediction - INFO - Home page requested
+2025-04-13 23:05:21,550 - fire_prediction - INFO - Home page requested
+2025-04-13 23:05:21,550 - fire_prediction - INFO - Home page requested
+2025-04-13 23:07:27,509 - fire_prediction - INFO - Home page requested
+2025-04-13 23:07:27,509 - fire_prediction - INFO - Home page requested
+2025-04-13 23:14:18,406 - fire_prediction - INFO - Home page requested
+2025-04-13 23:14:18,406 - fire_prediction - INFO - Home page requested
+2025-04-13 23:14:38,022 - fire_prediction - INFO - Home page requested
+2025-04-13 23:14:38,022 - fire_prediction - INFO - Home page requested
+2025-04-13 23:14:46,818 - fire_prediction - INFO - Home page requested
+2025-04-13 23:14:46,818 - fire_prediction - INFO - Home page requested
+2025-04-13 23:16:41,659 - fire_prediction - INFO - Home page requested
+2025-04-13 23:16:41,659 - fire_prediction - INFO - Home page requested
+2025-04-13 23:21:16,883 - fire_prediction - INFO - Home page requested
+2025-04-13 23:21:16,883 - fire_prediction - INFO - Home page requested
+2025-04-13 23:21:22,300 - fire_prediction - INFO - Home page requested
+2025-04-13 23:21:22,300 - fire_prediction - INFO - Home page requested
+2025-04-13 23:27:46,963 - fire_prediction - INFO - Home page requested
+2025-04-13 23:27:46,963 - fire_prediction - INFO - Home page requested
+2025-04-13 23:27:48,886 - fire_prediction - INFO - Home page requested
+2025-04-13 23:27:48,886 - fire_prediction - INFO - Home page requested
+2025-04-13 23:29:24,023 - fire_prediction - INFO - API status requested
+2025-04-13 23:29:24,023 - fire_prediction - INFO - API status requested
+2025-04-13 23:30:14,109 - fire_prediction - INFO - Home page requested
+2025-04-13 23:30:14,109 - fire_prediction - INFO - Home page requested
+2025-04-13 23:49:07,017 - fire_prediction - INFO - Home page requested
+2025-04-13 23:49:07,017 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:12,889 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:12,889 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:40,721 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:40,721 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:41,517 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:41,517 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:42,226 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:42,226 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:42,839 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:42,839 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:44,990 - fire_prediction - INFO - Home page requested
+2025-04-13 23:54:44,990 - fire_prediction - INFO - Home page requested
+2025-04-13 23:56:00,691 - fire_prediction - INFO - Home page requested
+2025-04-13 23:56:00,691 - fire_prediction - INFO - Home page requested
+2025-04-13 23:56:12,041 - fire_prediction - INFO - Weather data requested for location: 37.870919,-122.278332, date: 2025-04-14
+2025-04-13 23:56:12,041 - fire_prediction - INFO - Weather data requested for location: 37.870919,-122.278332, date: 2025-04-14
+2025-04-13 23:56:14,657 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-13 23:56:14,657 - fire_prediction.weather - INFO - Using OpenWeather API key: Available
+2025-04-13 23:56:14,659 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:14,659 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:14,659 - fire_prediction - INFO - Calling weather service for location: 37.870919,-122.278332, date: 2025-04-14
+2025-04-13 23:56:14,659 - fire_prediction - INFO - Calling weather service for location: 37.870919,-122.278332, date: 2025-04-14
+2025-04-13 23:56:14,660 - fire_prediction.weather - INFO - Generated synthetic weather data for Coordinates 37.870919,-122.278332 on 2025-04-14
+2025-04-13 23:56:14,660 - fire_prediction.weather - INFO - Generated synthetic weather data for Coordinates 37.870919,-122.278332 on 2025-04-14
+2025-04-13 23:56:14,660 - fire_prediction - INFO - Weather data processed successfully for 37.870919,-122.278332, date: 2025-04-14
+2025-04-13 23:56:14,660 - fire_prediction - INFO - Weather data processed successfully for 37.870919,-122.278332, date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction - INFO - Weather data requested for location: Berkeley, date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction - INFO - Weather data requested for location: Berkeley, date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction - INFO - Calling weather service for location: Berkeley, date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction - INFO - Calling weather service for location: Berkeley, date: 2025-04-14
+2025-04-13 23:56:34,852 - fire_prediction.weather - INFO - Calling geocoding API for location: Berkeley
+2025-04-13 23:56:34,852 - fire_prediction.weather - INFO - Calling geocoding API for location: Berkeley
+2025-04-13 23:56:35,371 - fire_prediction.weather - INFO - Found coordinates for Berkeley: 37.8708393, -122.272863
+2025-04-13 23:56:35,371 - fire_prediction.weather - INFO - Found coordinates for Berkeley: 37.8708393, -122.272863
+2025-04-13 23:56:35,372 - fire_prediction.weather - INFO - Generated synthetic weather data for Berkeley, US on 2025-04-14
+2025-04-13 23:56:35,372 - fire_prediction.weather - INFO - Generated synthetic weather data for Berkeley, US on 2025-04-14
+2025-04-13 23:56:35,372 - fire_prediction - INFO - Weather data processed successfully for Berkeley, date: 2025-04-14
+2025-04-13 23:56:35,372 - fire_prediction - INFO - Weather data processed successfully for Berkeley, date: 2025-04-14
+2025-04-13 23:56:48,568 - fire_prediction - INFO - Weather data requested for location: CA,Berkeley, date: 2025-04-14
+2025-04-13 23:56:48,568 - fire_prediction - INFO - Weather data requested for location: CA,Berkeley, date: 2025-04-14
+2025-04-13 23:56:48,568 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:48,568 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:48,568 - fire_prediction - INFO - Calling weather service for location: CA,Berkeley, date: 2025-04-14
+2025-04-13 23:56:48,568 - fire_prediction - INFO - Calling weather service for location: CA,Berkeley, date: 2025-04-14
+2025-04-13 23:56:48,569 - fire_prediction.weather - INFO - Calling geocoding API for location: CA,Berkeley
+2025-04-13 23:56:48,569 - fire_prediction.weather - INFO - Calling geocoding API for location: CA,Berkeley
+2025-04-13 23:56:48,854 - fire_prediction.weather - INFO - Found coordinates for CA,Berkeley: 45.5922165, 9.8224461
+2025-04-13 23:56:48,854 - fire_prediction.weather - INFO - Found coordinates for CA,Berkeley: 45.5922165, 9.8224461
+2025-04-13 23:56:48,855 - fire_prediction.weather - INFO - Generated synthetic weather data for Ca', IT on 2025-04-14
+2025-04-13 23:56:48,855 - fire_prediction.weather - INFO - Generated synthetic weather data for Ca', IT on 2025-04-14
+2025-04-13 23:56:48,855 - fire_prediction - INFO - Weather data processed successfully for CA,Berkeley, date: 2025-04-14
+2025-04-13 23:56:48,855 - fire_prediction - INFO - Weather data processed successfully for CA,Berkeley, date: 2025-04-14
+2025-04-13 23:56:56,607 - fire_prediction - INFO - Weather data requested for location: 37.870928,-122.278333, date: 2025-04-14
+2025-04-13 23:56:56,607 - fire_prediction - INFO - Weather data requested for location: 37.870928,-122.278333, date: 2025-04-14
+2025-04-13 23:56:56,607 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:56,607 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-13 23:56:56,607 - fire_prediction - INFO - Calling weather service for location: 37.870928,-122.278333, date: 2025-04-14
+2025-04-13 23:56:56,607 - fire_prediction - INFO - Calling weather service for location: 37.870928,-122.278333, date: 2025-04-14
+2025-04-13 23:56:56,608 - fire_prediction.weather - INFO - Generated synthetic weather data for Coordinates 37.870928,-122.278333 on 2025-04-14
+2025-04-13 23:56:56,608 - fire_prediction.weather - INFO - Generated synthetic weather data for Coordinates 37.870928,-122.278333 on 2025-04-14
+2025-04-13 23:56:56,608 - fire_prediction - INFO - Weather data processed successfully for 37.870928,-122.278333, date: 2025-04-14
+2025-04-13 23:56:56,608 - fire_prediction - INFO - Weather data processed successfully for 37.870928,-122.278333, date: 2025-04-14
+2025-04-13 23:57:11,705 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278333
+2025-04-13 23:57:11,705 - fire_prediction - INFO - Prediction requested for location: 37.870928,-122.278333
+2025-04-13 23:57:11,740 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-13 23:57:11,740 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-13 23:57:11,744 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278333, probability: 0.0
+2025-04-13 23:57:11,744 - fire_prediction - INFO - AI analysis requested for location: 37.870928,-122.278333, probability: 0.0
+2025-04-13 23:57:11,744 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-13 23:57:11,744 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-13 23:57:11,744 - fire_prediction - INFO - Calling OpenAI API
+2025-04-13 23:57:11,744 - fire_prediction - INFO - Calling OpenAI API
+2025-04-13 23:57:13,122 - fire_prediction - INFO - Received OpenAI response
+2025-04-13 23:57:13,122 - fire_prediction - INFO - Received OpenAI response
+2025-04-13 23:57:13,122 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-13 23:57:13,122 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-14 00:02:00,414 - fire_prediction - INFO - Home page requested
+2025-04-14 00:02:00,414 - fire_prediction - INFO - Home page requested
+2025-04-14 00:02:01,363 - fire_prediction - INFO - Home page requested
+2025-04-14 00:02:01,363 - fire_prediction - INFO - Home page requested
+2025-04-14 00:02:18,179 - fire_prediction - INFO - Home page requested
+2025-04-14 00:02:18,179 - fire_prediction - INFO - Home page requested
+2025-04-14 00:18:59,055 - fire_prediction - INFO - Home page requested
+2025-04-14 00:18:59,055 - fire_prediction - INFO - Home page requested
+2025-04-14 00:19:30,046 - fire_prediction - INFO - Home page requested
+2025-04-14 00:19:30,046 - fire_prediction - INFO - Home page requested
+2025-04-14 00:22:31,044 - fire_prediction - INFO - Home page requested
+2025-04-14 00:22:31,044 - fire_prediction - INFO - Home page requested
+2025-04-14 00:24:53,228 - fire_prediction - INFO - Home page requested
+2025-04-14 00:24:53,228 - fire_prediction - INFO - Home page requested
+2025-04-14 00:32:05,273 - fire_prediction - INFO - Home page requested
+2025-04-14 00:32:05,273 - fire_prediction - INFO - Home page requested
+2025-04-14 00:35:53,700 - fire_prediction - INFO - Home page requested
+2025-04-14 00:35:53,700 - fire_prediction - INFO - Home page requested
+2025-04-14 00:36:45,578 - fire_prediction - INFO - Home page requested
+2025-04-14 00:36:45,578 - fire_prediction - INFO - Home page requested
+2025-04-14 00:38:46,570 - fire_prediction - INFO - Home page requested
+2025-04-14 00:38:46,570 - fire_prediction - INFO - Home page requested
+2025-04-14 00:41:13,283 - fire_prediction - INFO - Home page requested
+2025-04-14 00:41:13,283 - fire_prediction - INFO - Home page requested
+2025-04-14 00:41:31,102 - fire_prediction - INFO - Home page requested
+2025-04-14 00:41:31,102 - fire_prediction - INFO - Home page requested
+2025-04-14 00:44:58,547 - fire_prediction - INFO - Home page requested
+2025-04-14 00:44:58,547 - fire_prediction - INFO - Home page requested
+2025-04-14 00:48:19,083 - fire_prediction - INFO - Weather data requested for location: 37.870914,-122.278350, date: 2025-04-14
+2025-04-14 00:48:19,083 - fire_prediction - INFO - Weather data requested for location: 37.870914,-122.278350, date: 2025-04-14
+2025-04-14 00:48:19,086 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 00:48:19,086 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 00:48:19,086 - fire_prediction - INFO - Calling weather service for location: 37.870914,-122.278350, date: 2025-04-14
+2025-04-14 00:48:19,086 - fire_prediction - INFO - Calling weather service for location: 37.870914,-122.278350, date: 2025-04-14
+2025-04-14 00:48:19,087 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870914, -122.27835
+2025-04-14 00:48:19,087 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870914, -122.27835
+2025-04-14 00:48:19,261 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2784, 'lat': 37.8709}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 12.53, 'feels_like': 11.9, 'temp_min': 11.12, 'temp_max': 14.58, 'pressure': 1014, 'humidity': 79, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 1.79, 'deg': 285, 'gust': 2.24}, 'clouds': {'all': 0}, 'dt': 1744616899, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 00:48:19,261 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2784, 'lat': 37.8709}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 12.53, 'feels_like': 11.9, 'temp_min': 11.12, 'temp_max': 14.58, 'pressure': 1014, 'humidity': 79, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 1.79, 'deg': 285, 'gust': 2.24}, 'clouds': {'all': 0}, 'dt': 1744616899, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 00:48:19,262 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870914,-122.27835
+2025-04-14 00:48:19,262 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870914,-122.27835
+2025-04-14 00:48:19,263 - fire_prediction - INFO - Weather data processed successfully for 37.870914,-122.278350, date: 2025-04-14
+2025-04-14 00:48:19,263 - fire_prediction - INFO - Weather data processed successfully for 37.870914,-122.278350, date: 2025-04-14
+2025-04-14 00:48:23,682 - fire_prediction - INFO - Prediction requested for location: 37.870914,-122.278350
+2025-04-14 00:48:23,682 - fire_prediction - INFO - Prediction requested for location: 37.870914,-122.278350
+2025-04-14 00:48:23,728 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-14 00:48:23,728 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-14 00:48:23,733 - fire_prediction - INFO - AI analysis requested for location: 37.870914,-122.278350, probability: 0.0
+2025-04-14 00:48:23,733 - fire_prediction - INFO - AI analysis requested for location: 37.870914,-122.278350, probability: 0.0
+2025-04-14 00:48:23,734 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-14 00:48:23,734 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-14 00:48:23,734 - fire_prediction - INFO - Calling OpenAI API
+2025-04-14 00:48:23,734 - fire_prediction - INFO - Calling OpenAI API
+2025-04-14 00:48:24,801 - fire_prediction - INFO - Received OpenAI response
+2025-04-14 00:48:24,801 - fire_prediction - INFO - Received OpenAI response
+2025-04-14 00:48:24,801 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-14 00:48:24,801 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-14 00:49:55,360 - fire_prediction - INFO - Home page requested
+2025-04-14 00:49:55,360 - fire_prediction - INFO - Home page requested
+2025-04-14 00:52:44,594 - fire_prediction - INFO - Home page requested
+2025-04-14 00:52:44,594 - fire_prediction - INFO - Home page requested
+2025-04-14 00:53:37,943 - fire_prediction - INFO - Home page requested
+2025-04-14 00:53:37,943 - fire_prediction - INFO - Home page requested
+2025-04-14 00:53:49,527 - fire_prediction - INFO - Home page requested
+2025-04-14 00:53:49,527 - fire_prediction - INFO - Home page requested
+2025-04-14 00:54:21,208 - fire_prediction - INFO - Home page requested
+2025-04-14 00:54:21,208 - fire_prediction - INFO - Home page requested
+2025-04-14 00:58:01,799 - fire_prediction - INFO - Home page requested
+2025-04-14 00:58:01,799 - fire_prediction - INFO - Home page requested
+2025-04-14 01:01:14,741 - fire_prediction - INFO - Home page requested
+2025-04-14 01:01:14,741 - fire_prediction - INFO - Home page requested
+2025-04-14 01:03:50,098 - fire_prediction - INFO - Home page requested
+2025-04-14 01:03:50,098 - fire_prediction - INFO - Home page requested
+2025-04-14 01:04:10,272 - fire_prediction - INFO - Home page requested
+2025-04-14 01:04:10,272 - fire_prediction - INFO - Home page requested
+2025-04-14 01:04:20,489 - fire_prediction - INFO - Home page requested
+2025-04-14 01:04:20,489 - fire_prediction - INFO - Home page requested
+2025-04-14 01:10:48,747 - fire_prediction - INFO - Home page requested
+2025-04-14 01:10:48,747 - fire_prediction - INFO - Home page requested
+2025-04-14 01:11:53,426 - fire_prediction - INFO - Home page requested
+2025-04-14 01:11:53,426 - fire_prediction - INFO - Home page requested
+2025-04-14 01:13:20,363 - fire_prediction - INFO - Home page requested
+2025-04-14 01:13:20,363 - fire_prediction - INFO - Home page requested
+2025-04-14 01:15:33,292 - fire_prediction - INFO - Weather data requested for location: 37.870918,-122.278342, date: 2025-04-14
+2025-04-14 01:15:33,292 - fire_prediction - INFO - Weather data requested for location: 37.870918,-122.278342, date: 2025-04-14
+2025-04-14 01:15:33,292 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 01:15:33,292 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 01:15:33,292 - fire_prediction - INFO - Calling weather service for location: 37.870918,-122.278342, date: 2025-04-14
+2025-04-14 01:15:33,292 - fire_prediction - INFO - Calling weather service for location: 37.870918,-122.278342, date: 2025-04-14
+2025-04-14 01:15:33,292 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870918, -122.278342
+2025-04-14 01:15:33,292 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870918, -122.278342
+2025-04-14 01:15:33,427 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 12.31, 'feels_like': 11.69, 'temp_min': 10.75, 'temp_max': 14.58, 'pressure': 1014, 'humidity': 80, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 3.09, 'deg': 300}, 'clouds': {'all': 0}, 'dt': 1744618533, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 01:15:33,427 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 12.31, 'feels_like': 11.69, 'temp_min': 10.75, 'temp_max': 14.58, 'pressure': 1014, 'humidity': 80, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 3.09, 'deg': 300}, 'clouds': {'all': 0}, 'dt': 1744618533, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 01:15:33,428 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870918,-122.278342
+2025-04-14 01:15:33,428 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870918,-122.278342
+2025-04-14 01:15:33,429 - fire_prediction - INFO - Weather data processed successfully for 37.870918,-122.278342, date: 2025-04-14
+2025-04-14 01:15:33,429 - fire_prediction - INFO - Weather data processed successfully for 37.870918,-122.278342, date: 2025-04-14
+2025-04-14 01:24:43,900 - fire_prediction - INFO - Home page requested
+2025-04-14 01:24:43,900 - fire_prediction - INFO - Home page requested
+2025-04-14 01:33:16,682 - fire_prediction - INFO - Home page requested
+2025-04-14 01:33:16,682 - fire_prediction - INFO - Home page requested
+2025-04-14 01:38:19,776 - fire_prediction - INFO - Home page requested
+2025-04-14 01:38:19,776 - fire_prediction - INFO - Home page requested
+2025-04-14 01:46:00,856 - fire_prediction - INFO - Home page requested
+2025-04-14 01:46:00,856 - fire_prediction - INFO - Home page requested
+2025-04-14 01:48:49,704 - fire_prediction - INFO - Home page requested
+2025-04-14 01:48:49,704 - fire_prediction - INFO - Home page requested
+2025-04-14 01:52:20,062 - fire_prediction - INFO - Home page requested
+2025-04-14 01:52:20,062 - fire_prediction - INFO - Home page requested
+2025-04-14 01:55:05,134 - fire_prediction - INFO - Home page requested
+2025-04-14 01:55:05,134 - fire_prediction - INFO - Home page requested
+2025-04-14 01:55:11,322 - fire_prediction - INFO - Home page requested
+2025-04-14 01:55:11,322 - fire_prediction - INFO - Home page requested
+2025-04-14 01:55:26,962 - fire_prediction - INFO - API status requested
+2025-04-14 01:55:26,962 - fire_prediction - INFO - API status requested
+2025-04-14 01:56:13,146 - fire_prediction - INFO - Home page requested
+2025-04-14 01:56:13,146 - fire_prediction - INFO - Home page requested
+2025-04-14 01:59:48,984 - fire_prediction - INFO - Home page requested
+2025-04-14 01:59:48,984 - fire_prediction - INFO - Home page requested
+2025-04-14 02:02:36,634 - fire_prediction - INFO - Home page requested
+2025-04-14 02:02:36,634 - fire_prediction - INFO - Home page requested
+2025-04-14 02:03:29,159 - fire_prediction - INFO - Home page requested
+2025-04-14 02:03:29,159 - fire_prediction - INFO - Home page requested
+2025-04-14 02:13:41,114 - fire_prediction - INFO - Home page requested
+2025-04-14 02:13:41,114 - fire_prediction - INFO - Home page requested
+2025-04-14 02:14:34,595 - fire_prediction - INFO - Home page requested
+2025-04-14 02:14:34,595 - fire_prediction - INFO - Home page requested
+2025-04-14 02:17:30,362 - fire_prediction - INFO - Home page requested
+2025-04-14 02:17:30,362 - fire_prediction - INFO - Home page requested
+2025-04-14 02:24:00,909 - fire_prediction - INFO - Home page requested
+2025-04-14 02:24:00,909 - fire_prediction - INFO - Home page requested
+2025-04-14 02:24:14,604 - fire_prediction - INFO - Home page requested
+2025-04-14 02:24:14,604 - fire_prediction - INFO - Home page requested
+2025-04-14 02:26:26,686 - fire_prediction - INFO - API status requested
+2025-04-14 02:26:26,686 - fire_prediction - INFO - API status requested
+2025-04-14 02:29:32,838 - fire_prediction - INFO - Home page requested
+2025-04-14 02:29:32,838 - fire_prediction - INFO - Home page requested
+2025-04-14 02:30:04,411 - fire_prediction - INFO - Home page requested
+2025-04-14 02:30:04,411 - fire_prediction - INFO - Home page requested
+2025-04-14 02:30:23,879 - fire_prediction - INFO - Weather data requested for location: 37.870923,-122.278339, date: 2025-04-14
+2025-04-14 02:30:23,879 - fire_prediction - INFO - Weather data requested for location: 37.870923,-122.278339, date: 2025-04-14
+2025-04-14 02:30:23,879 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 02:30:23,879 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 02:30:23,879 - fire_prediction - INFO - Calling weather service for location: 37.870923,-122.278339, date: 2025-04-14
+2025-04-14 02:30:23,879 - fire_prediction - INFO - Calling weather service for location: 37.870923,-122.278339, date: 2025-04-14
+2025-04-14 02:30:23,880 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870923, -122.278339
+2025-04-14 02:30:23,880 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870923, -122.278339
+2025-04-14 02:30:24,018 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 11.57, 'feels_like': 10.95, 'temp_min': 10.42, 'temp_max': 13.47, 'pressure': 1013, 'humidity': 83, 'sea_level': 1013, 'grnd_level': 1006}, 'visibility': 10000, 'wind': {'speed': 3.09, 'deg': 310}, 'clouds': {'all': 0}, 'dt': 1744623024, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 02:30:24,018 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 11.57, 'feels_like': 10.95, 'temp_min': 10.42, 'temp_max': 13.47, 'pressure': 1013, 'humidity': 83, 'sea_level': 1013, 'grnd_level': 1006}, 'visibility': 10000, 'wind': {'speed': 3.09, 'deg': 310}, 'clouds': {'all': 0}, 'dt': 1744623024, 'sys': {'type': 2, 'id': 2037811, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 02:30:24,018 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870923,-122.278339
+2025-04-14 02:30:24,018 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870923,-122.278339
+2025-04-14 02:30:24,018 - fire_prediction - INFO - Weather data processed successfully for 37.870923,-122.278339, date: 2025-04-14
+2025-04-14 02:30:24,018 - fire_prediction - INFO - Weather data processed successfully for 37.870923,-122.278339, date: 2025-04-14
+2025-04-14 02:30:26,293 - fire_prediction - INFO - Prediction requested for location: 37.870923,-122.278339
+2025-04-14 02:30:26,293 - fire_prediction - INFO - Prediction requested for location: 37.870923,-122.278339
+2025-04-14 02:30:26,307 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-14 02:30:26,307 - fire_prediction - INFO - Fire probability calculated using local model: 0.0
+2025-04-14 02:30:26,310 - fire_prediction - INFO - AI analysis requested for location: 37.870923,-122.278339, probability: 0.0
+2025-04-14 02:30:26,310 - fire_prediction - INFO - AI analysis requested for location: 37.870923,-122.278339, probability: 0.0
+2025-04-14 02:30:26,311 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-14 02:30:26,311 - fire_prediction - INFO - Preparing OpenAI prompt
+2025-04-14 02:30:26,311 - fire_prediction - INFO - Calling OpenAI API
+2025-04-14 02:30:26,311 - fire_prediction - INFO - Calling OpenAI API
+2025-04-14 02:30:27,630 - fire_prediction - INFO - Received OpenAI response
+2025-04-14 02:30:27,630 - fire_prediction - INFO - Received OpenAI response
+2025-04-14 02:30:27,630 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-14 02:30:27,630 - fire_prediction - INFO - Successfully parsed OpenAI response as JSON
+2025-04-14 02:31:48,598 - fire_prediction - INFO - Home page requested
+2025-04-14 02:31:48,598 - fire_prediction - INFO - Home page requested
+2025-04-14 02:31:51,993 - fire_prediction - INFO - Home page requested
+2025-04-14 02:31:51,993 - fire_prediction - INFO - Home page requested
+2025-04-14 02:32:05,662 - fire_prediction - INFO - Home page requested
+2025-04-14 02:32:05,662 - fire_prediction - INFO - Home page requested
+2025-04-14 02:36:47,293 - fire_prediction - INFO - Home page requested
+2025-04-14 02:36:47,293 - fire_prediction - INFO - Home page requested
+2025-04-14 02:37:47,277 - fire_prediction - INFO - Home page requested
+2025-04-14 02:37:47,277 - fire_prediction - INFO - Home page requested
+2025-04-14 02:40:23,726 - fire_prediction - INFO - Home page requested
+2025-04-14 02:40:23,726 - fire_prediction - INFO - Home page requested
+2025-04-14 02:42:06,650 - fire_prediction - INFO - Home page requested
+2025-04-14 02:42:06,650 - fire_prediction - INFO - Home page requested
+2025-04-14 02:43:07,883 - fire_prediction - INFO - API status requested
+2025-04-14 02:43:07,883 - fire_prediction - INFO - API status requested
+2025-04-14 02:48:34,842 - fire_prediction - INFO - Home page requested
+2025-04-14 02:48:34,842 - fire_prediction - INFO - Home page requested
+2025-04-14 02:50:49,388 - fire_prediction - INFO - Home page requested
+2025-04-14 02:50:49,388 - fire_prediction - INFO - Home page requested
+2025-04-14 02:53:31,135 - fire_prediction - INFO - Home page requested
+2025-04-14 02:53:31,135 - fire_prediction - INFO - Home page requested
+2025-04-14 02:53:59,486 - fire_prediction - INFO - API status requested
+2025-04-14 02:53:59,486 - fire_prediction - INFO - API status requested
+2025-04-14 02:57:51,517 - fire_prediction - INFO - Home page requested
+2025-04-14 02:57:51,517 - fire_prediction - INFO - Home page requested
+2025-04-14 03:36:17,096 - fire_prediction - INFO - Home page requested
+2025-04-14 03:36:17,096 - fire_prediction - INFO - Home page requested
+2025-04-14 03:36:48,066 - fire_prediction - INFO - Home page requested
+2025-04-14 03:36:48,066 - fire_prediction - INFO - Home page requested
+2025-04-14 03:37:33,999 - fire_prediction - INFO - Home page requested
+2025-04-14 03:37:33,999 - fire_prediction - INFO - Home page requested
+2025-04-14 03:39:19,348 - fire_prediction - INFO - Home page requested
+2025-04-14 03:39:19,348 - fire_prediction - INFO - Home page requested
+2025-04-14 03:42:55,505 - fire_prediction - INFO - Home page requested
+2025-04-14 03:42:55,505 - fire_prediction - INFO - Home page requested
+2025-04-14 03:47:19,839 - fire_prediction - INFO - Home page requested
+2025-04-14 03:47:19,839 - fire_prediction - INFO - Home page requested
+2025-04-14 03:49:24,494 - fire_prediction - INFO - Home page requested
+2025-04-14 03:49:24,494 - fire_prediction - INFO - Home page requested
+2025-04-14 10:55:24,361 - fire_prediction - INFO - Home page requested
+2025-04-14 10:55:24,361 - fire_prediction - INFO - Home page requested
+2025-04-14 11:00:00,362 - fire_prediction - INFO - Home page requested
+2025-04-14 11:00:00,362 - fire_prediction - INFO - Home page requested
+2025-04-14 11:12:23,627 - fire_prediction - INFO - Home page requested
+2025-04-14 11:12:23,627 - fire_prediction - INFO - Home page requested
+2025-04-14 11:12:38,252 - fire_prediction - INFO - Home page requested
+2025-04-14 11:12:38,252 - fire_prediction - INFO - Home page requested
+2025-04-14 11:18:04,284 - fire_prediction - INFO - Home page requested
+2025-04-14 11:18:04,284 - fire_prediction - INFO - Home page requested
+2025-04-14 11:22:24,466 - fire_prediction - INFO - Home page requested
+2025-04-14 11:22:24,466 - fire_prediction - INFO - Home page requested
+2025-04-14 11:23:55,587 - fire_prediction - INFO - Home page requested
+2025-04-14 11:23:55,587 - fire_prediction - INFO - Home page requested
+2025-04-14 11:26:00,202 - fire_prediction - INFO - Weather data requested for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:00,202 - fire_prediction - INFO - Weather data requested for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:00,203 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 11:26:00,203 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 11:26:00,203 - fire_prediction - INFO - Calling weather service for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:00,203 - fire_prediction - INFO - Calling weather service for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:00,203 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870934, -122.278338
+2025-04-14 11:26:00,203 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870934, -122.278338
+2025-04-14 11:26:00,350 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 19.9, 'feels_like': 19.59, 'temp_min': 16.73, 'temp_max': 24.43, 'pressure': 1014, 'humidity': 63, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 4.63, 'deg': 290}, 'clouds': {'all': 20}, 'dt': 1744655159, 'sys': {'type': 2, 'id': 2099819, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 11:26:00,350 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 19.9, 'feels_like': 19.59, 'temp_min': 16.73, 'temp_max': 24.43, 'pressure': 1014, 'humidity': 63, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 4.63, 'deg': 290}, 'clouds': {'all': 20}, 'dt': 1744655159, 'sys': {'type': 2, 'id': 2099819, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 11:26:00,350 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870934,-122.278338
+2025-04-14 11:26:00,350 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870934,-122.278338
+2025-04-14 11:26:00,351 - fire_prediction - INFO - Weather data processed successfully for 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:00,351 - fire_prediction - INFO - Weather data processed successfully for 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:08,331 - fire_prediction - INFO - Weather data requested for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:08,331 - fire_prediction - INFO - Weather data requested for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:08,331 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 11:26:08,331 - fire_prediction - INFO - Parsed date: 2025-04-14
+2025-04-14 11:26:08,332 - fire_prediction - INFO - Calling weather service for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:08,332 - fire_prediction - INFO - Calling weather service for location: 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:08,332 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870934, -122.278338
+2025-04-14 11:26:08,332 - fire_prediction.weather - INFO - Calling weather API for coordinates: 37.870934, -122.278338
+2025-04-14 11:26:08,441 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 19.9, 'feels_like': 19.59, 'temp_min': 16.73, 'temp_max': 24.43, 'pressure': 1014, 'humidity': 63, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 4.63, 'deg': 290}, 'clouds': {'all': 20}, 'dt': 1744655159, 'sys': {'type': 2, 'id': 2099819, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 11:26:08,441 - fire_prediction.weather - INFO - Weather API response received: {'coord': {'lon': -122.2783, 'lat': 37.8709}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 19.9, 'feels_like': 19.59, 'temp_min': 16.73, 'temp_max': 24.43, 'pressure': 1014, 'humidity': 63, 'sea_level': 1014, 'grnd_level': 1007}, 'visibility': 10000, 'wind': {'speed': 4.63, 'deg': 290}, 'clouds': {'all': 20}, 'dt': 1744655159, 'sys': {'type': 2, 'id': 2099819, 'country': 'US', 'sunrise': 1744637672, 'sunset': 1744685015}, 'timezone': -25200, 'id': 5327684, 'name': 'Berkeley', 'cod': 200}
+2025-04-14 11:26:08,441 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870934,-122.278338
+2025-04-14 11:26:08,441 - fire_prediction.weather - INFO - Successfully fetched current weather for Coordinates 37.870934,-122.278338
+2025-04-14 11:26:08,442 - fire_prediction - INFO - Weather data processed successfully for 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:26:08,442 - fire_prediction - INFO - Weather data processed successfully for 37.870934,-122.278338, date: 2025-04-14
+2025-04-14 11:39:07,296 - fire_prediction - INFO - Home page requested
+2025-04-14 11:39:07,296 - fire_prediction - INFO - Home page requested
+2025-04-14 11:43:20,580 - fire_prediction - INFO - Home page requested
+2025-04-14 11:43:20,580 - fire_prediction - INFO - Home page requested
+2025-04-14 11:43:20,768 - fire_prediction - INFO - API status requested
+2025-04-14 11:43:20,768 - fire_prediction - INFO - API status requested
+2025-04-14 11:48:05,200 - fire_prediction - INFO - Home page requested
+2025-04-14 11:48:05,200 - fire_prediction - INFO - Home page requested
+2025-04-14 11:48:05,356 - fire_prediction - INFO - API status requested
+2025-04-14 11:48:05,356 - fire_prediction - INFO - API status requested
+2025-04-14 11:48:32,510 - fire_prediction - INFO - Home page requested
+2025-04-14 11:48:32,510 - fire_prediction - INFO - Home page requested
+2025-04-14 11:48:32,687 - fire_prediction - INFO - API status requested
+2025-04-14 11:48:32,687 - fire_prediction - INFO - API status requested
+2025-04-14 11:49:01,212 - fire_prediction - INFO - Home page requested
+2025-04-14 11:49:01,212 - fire_prediction - INFO - Home page requested
+2025-04-14 11:49:01,551 - fire_prediction - INFO - API status requested
+2025-04-14 11:49:01,551 - fire_prediction - INFO - API status requested
+2025-04-14 11:49:08,733 - fire_prediction - INFO - Home page requested
+2025-04-14 11:49:08,733 - fire_prediction - INFO - Home page requested
+2025-04-14 11:49:08,777 - fire_prediction - INFO - API status requested
+2025-04-14 11:49:08,777 - fire_prediction - INFO - API status requested
+2025-04-14 11:49:15,127 - fire_prediction - INFO - Home page requested
+2025-04-14 11:49:15,127 - fire_prediction - INFO - Home page requested
+2025-04-14 11:49:15,172 - fire_prediction - INFO - API status requested
+2025-04-14 11:49:15,172 - fire_prediction - INFO - API status requested
+2025-04-14 11:53:10,424 - fire_prediction - INFO - Home page requested
+2025-04-14 11:53:10,424 - fire_prediction - INFO - Home page requested
+2025-04-14 11:53:10,585 - fire_prediction - INFO - API status requested
+2025-04-14 11:53:10,585 - fire_prediction - INFO - API status requested
+2025-04-14 12:02:11,231 - fire_prediction - INFO - API status requested
+2025-04-14 12:02:11,231 - fire_prediction - INFO - API status requested
+2025-04-14 12:02:44,453 - fire_prediction - INFO - Home page requested
+2025-04-14 12:02:44,453 - fire_prediction - INFO - Home page requested
+2025-04-14 12:02:44,587 - fire_prediction - INFO - API status requested
+2025-04-14 12:02:44,587 - fire_prediction - INFO - API status requested
+2025-04-14 12:08:31,430 - fire_prediction - INFO - Home page requested
+2025-04-14 12:08:31,430 - fire_prediction - INFO - Home page requested
+2025-04-14 12:08:31,602 - fire_prediction - INFO - API status requested
+2025-04-14 12:08:31,602 - fire_prediction - INFO - API status requested
+2025-04-14 12:08:55,213 - fire_prediction - INFO - Home page requested
+2025-04-14 12:08:55,213 - fire_prediction - INFO - Home page requested
+2025-04-14 12:08:55,357 - fire_prediction - INFO - API status requested
+2025-04-14 12:08:55,357 - fire_prediction - INFO - API status requested
+2025-04-14 12:09:13,629 - fire_prediction - INFO - API status requested
+2025-04-14 12:09:13,629 - fire_prediction - INFO - API status requested

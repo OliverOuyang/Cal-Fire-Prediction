@@ -1,0 +1,591 @@
+2025-04-13 00:00:40,492 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:00:41,662 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:00:41,663 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:00:42,327 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:00:42,327 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:00:44,302 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:00:45,432 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:00:45,433 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:00:46,006 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:00:46,007 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:00:56,116 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:00:56,124 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:00:57,387 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:00:57,388 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:00:57,391 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:00:57,392 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:00:58,046 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:00:58,046 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:00:58,048 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:00:58,048 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:02:14,118 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:02:15,255 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:02:15,255 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:02:15,946 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:02:15,946 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:03:05,345 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:03:06,487 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:03:06,487 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:03:07,069 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:03:07,069 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:03:31,997 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:03:33,133 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:03:33,134 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:03:33,772 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:03:33,772 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:04:37,435 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:04:38,681 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:04:38,681 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:04:39,270 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:04:39,271 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:13,966 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:15,488 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:15,488 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:16,371 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:05:16,372 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:26,500 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:26,502 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:26,520 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:26,552 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:28,035 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:28,036 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:28,046 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:28,047 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:28,078 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:28,079 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:28,121 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:28,121 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:28,769 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:05:28,769 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:28,899 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:05:28,900 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:28,900 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:28,944 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:05:28,944 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:40,550 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:41,753 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:41,753 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:42,334 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:05:42,335 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:05:44,204 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:05:45,384 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:05:45,384 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:05:46,009 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:05:46,009 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:06:56,123 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:06:56,166 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:06:57,727 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:06:57,727 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:06:57,736 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:06:57,736 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:06:58,447 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:06:58,447 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:06:58,487 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:06:58,488 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:07:50,354 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:07:51,522 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:07:51,523 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:07:52,158 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:07:52,159 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:09:56,034 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:09:56,042 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:09:57,410 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:09:57,411 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:09:57,420 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:09:57,420 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:09:58,004 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:09:58,004 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:09:58,022 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:09:58,023 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:13:52,975 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:13:54,119 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:13:54,119 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:13:54,782 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:13:54,783 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:19:56,723 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:19:56,730 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:19:58,001 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:19:58,002 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:19:58,002 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:19:58,002 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:19:58,701 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:19:58,701 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:19:58,703 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:19:58,704 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:23:06,992 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:23:08,157 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:23:08,158 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:23:09,157 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:23:09,158 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:28:54,398 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:28:55,632 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:28:55,633 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:28:56,263 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:28:56,263 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:28:56,287 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-13 00:28:57,026 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:28:58,238 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:28:58,238 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:28:58,832 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:28:58,833 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:28:58,868 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:28:58,868 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:28:59,716 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:28:59,716 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:28:59,717 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:28:59,717 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:28:59,726 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:28:59,726 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:28:59,727 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:28:59,727 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:32:26,389 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:32:26,427 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:32:26,447 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:32:27,785 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:32:27,786 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:32:27,850 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:32:27,850 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:32:27,889 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:32:27,889 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:32:28,663 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:32:28,664 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:32:28,703 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:32:28,703 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 00:32:28,745 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:32:28,745 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:32:28,747 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:32:28,747 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:32:29,601 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:32:29,601 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 00:32:29,601 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:32:29,601 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 00:32:29,612 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:32:29,612 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 00:32:29,612 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 00:32:29,612 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:50:16,018 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:50:17,455 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:50:17,456 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:50:18,906 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:50:18,906 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:52:36,540 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:52:37,662 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:52:37,662 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:52:38,290 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:52:38,291 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:57:07,146 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:57:08,532 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:57:08,532 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:57:09,424 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:57:09,425 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:59:10,272 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:59:11,631 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:59:11,631 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:59:12,419 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:59:12,420 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:59:12,453 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-13 22:59:13,649 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:59:14,895 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:59:14,895 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:59:15,451 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:59:15,451 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:59:15,489 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:59:15,489 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 22:59:16,339 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:59:16,339 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 22:59:16,340 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:59:16,340 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 22:59:16,349 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:59:16,349 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 22:59:16,350 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 22:59:16,350 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:01:37,239 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:01:38,585 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:01:38,585 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:01:39,559 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:01:39,560 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:02:49,436 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:02:50,751 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:02:50,751 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:02:51,615 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:02:51,616 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:07:26,616 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:07:28,012 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:07:28,013 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:07:28,913 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:07:28,914 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:12:49,417 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:12:50,749 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:12:50,749 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:12:51,401 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:12:51,401 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:14:37,770 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:14:39,230 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:14:39,231 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:14:39,986 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:14:39,987 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:15:07,149 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:15:07,490 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:15:08,653 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:15:08,653 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:15:08,943 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:15:08,943 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:15:09,289 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:15:09,290 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:15:09,331 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:15:09,331 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:15:09,994 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:15:09,994 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:15:10,209 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:15:10,209 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:15:10,209 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:15:10,209 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:15:10,219 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:15:10,219 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:15:10,219 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:15:10,219 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:15:56,174 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:15:57,361 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:15:57,361 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:15:58,090 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:15:58,090 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:16:40,434 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:16:41,713 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:16:41,713 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:16:42,741 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:16:42,741 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:21:13,070 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:21:14,325 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:21:14,325 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:21:14,982 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:21:14,982 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:23:49,498 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:23:50,773 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:23:50,773 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:23:51,479 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:23:51,480 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:24:07,216 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:24:07,536 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:24:08,560 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:24:08,560 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:24:08,887 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:24:08,887 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:24:09,598 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:24:09,598 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:24:10,029 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:24:11,251 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:24:11,251 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:24:11,936 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:24:11,937 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:24:11,984 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:24:11,984 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:24:12,819 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:24:12,819 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:24:12,819 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:24:12,819 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:24:12,829 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:24:12,829 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:24:12,829 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:24:12,829 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:27:24,185 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:27:24,186 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:27:24,192 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:27:24,193 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:27:24,229 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:27:24,231 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:27:24,283 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:27:24,285 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:27:25,963 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:27:25,963 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:27:25,981 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:27:25,981 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:27:25,988 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:27:25,989 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:27:25,992 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:27:25,992 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:27:27,172 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:27:27,172 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:27:27,172 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:27:27,173 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:27:27,175 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:27:27,176 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:27:27,177 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:27:27,177 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:27:27,220 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:27:27,220 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:27:27,221 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:27:27,221 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:27:28,115 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:27:28,115 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:27:28,115 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:27:28,115 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:27:28,125 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:27:28,125 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:27:28,125 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:27:28,125 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:28:19,326 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:28:19,327 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:28:20,661 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:28:20,662 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:28:21,339 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:28:21,339 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:28:37,332 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:28:37,333 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:28:38,650 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:28:38,650 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:28:39,249 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:28:39,250 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:30:13,854 - fire_prediction - INFO - Wildfire plotting module configured with logging
+2025-04-13 23:30:13,854 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:30:15,444 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:30:15,444 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:30:16,074 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:30:16,074 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:37:24,495 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:37:25,829 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:37:25,830 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:37:26,717 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:37:26,717 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:37:26,787 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:37:26,787 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:37:27,658 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:37:27,658 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:37:27,659 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:37:27,659 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:37:27,669 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:37:27,669 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:37:27,669 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:37:27,669 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:37:37,311 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:37:38,464 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:37:38,465 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:37:39,024 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:37:39,024 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:40:01,677 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:40:02,837 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:40:02,837 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:40:03,424 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:40:03,425 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:47:25,084 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:47:26,335 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:47:26,335 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:47:27,135 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:47:27,136 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:47:27,193 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:47:27,193 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:47:29,263 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:47:29,263 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:47:29,263 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:47:29,263 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:47:29,279 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:47:29,279 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:47:29,279 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:47:29,279 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:47:38,092 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:47:39,346 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:47:39,347 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:47:40,003 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:47:40,003 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:48:43,695 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:48:44,845 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:48:44,845 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:48:45,536 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:48:45,536 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:48:45,569 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-13 23:48:46,466 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:48:47,717 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:48:47,718 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:48:48,442 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:48:48,443 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:48:48,491 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:48:48,491 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:48:49,380 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:48:49,380 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:48:49,381 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:48:49,381 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:48:49,391 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:48:49,391 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:48:49,392 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:48:49,392 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:16,146 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:17,324 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:17,324 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:18,076 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:18,077 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:18,111 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-13 23:53:18,942 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:20,107 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:20,108 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:20,790 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:20,791 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:20,835 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:20,835 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:21,652 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:21,652 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:21,653 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:21,653 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:21,663 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:21,663 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:21,664 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:21,664 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:44,530 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:44,530 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:45,849 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:45,849 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:45,852 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:45,852 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:46,572 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:46,573 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:46,597 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:46,598 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:46,642 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:46,642 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:46,652 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:46,652 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:53:47,626 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:47,626 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:47,626 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:47,626 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:47,637 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:47,637 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:47,637 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:47,637 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:47,655 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:47,655 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:53:47,656 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:47,656 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:53:47,668 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:47,668 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:53:47,669 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:53:47,669 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:04,695 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:05,851 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:05,851 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:06,545 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:06,546 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:06,588 - fire_prediction - INFO - Starting Uvicorn server
+2025-04-13 23:54:07,082 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:07,593 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:08,594 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:08,595 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:09,063 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:09,063 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:09,651 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:09,652 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:09,733 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:09,733 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:09,888 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:09,889 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:09,938 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:09,938 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:54:10,861 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:10,861 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:10,862 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:10,862 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:10,872 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:10,872 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:10,873 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:10,873 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:11,927 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:11,927 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:54:11,928 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:11,928 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:54:11,944 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:11,944 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:54:11,945 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:54:11,945 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:31,956 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:33,283 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:33,284 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:33,895 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:33,895 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:33,944 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:33,944 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:34,788 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:34,788 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:34,788 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:34,788 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:34,797 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:34,797 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:34,798 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:34,798 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:36,712 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:37,076 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:38,047 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:38,048 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:38,421 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:38,421 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:38,703 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:38,704 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:38,741 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:38,741 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:55:39,062 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:39,063 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:39,677 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:39,677 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:55:39,678 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:39,678 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:55:39,686 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:39,686 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:55:39,687 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:55:39,687 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:56:41,306 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:56:42,442 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:56:42,442 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:56:43,056 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:56:43,056 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:56:43,095 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:56:43,095 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:56:43,934 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:56:43,934 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:56:43,935 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:56:43,935 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:56:43,945 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:56:43,945 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:56:43,945 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:56:43,945 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:16,072 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:17,270 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:17,271 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:17,953 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:17,954 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:18,001 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:18,001 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:18,885 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:18,885 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:18,885 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:18,885 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:18,895 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:18,895 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:18,896 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:18,896 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:34,829 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:36,056 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:36,057 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:36,790 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:36,791 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:36,833 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:36,833 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:37,029 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:37,777 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:37,777 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:37,778 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:37,778 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:37,787 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:37,787 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:37,788 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:37,788 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:38,331 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:38,332 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:38,979 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:38,980 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:39,022 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:39,022 - fire_prediction - INFO - Environment variables loaded from .env file
+2025-04-13 23:58:41,003 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:41,003 - fire_prediction - INFO - OpenAI client initialized successfully
+2025-04-13 23:58:41,004 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:41,004 - fire_prediction - INFO - Found model at: Prediction Model/fire_prediction_model.pkl
+2025-04-13 23:58:41,022 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:41,022 - fire_prediction - INFO - Successfully loaded prediction model
+2025-04-13 23:58:41,023 - fire_prediction - INFO - FastAPI application initialized
+2025-04-13 23:58:41,023 - fire_prediction - INFO - FastAPI application initialized

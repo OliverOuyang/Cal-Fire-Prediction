@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California Fire Prediction System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-fire me-2"></i>
+                California Fire Prediction System
+            </a>
+        </div>
+    </nav>
+
+    <div class="container main-container">
+        <div class="row">
+            <!-- Top Left: Satellite Imaging Section -->
+            <div class="col-md-6 mb-4">
+                <div class="section">
+                    <h3 class="section-title">
+                        <i class="bi bi-satellite"></i>
+                        Satellite Image Analysis with GPT
+                    </h3>
+                    <div class="container mt-3 mb-3">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <div class="file-upload-container">
+                                    <div class="file-upload-area" id="satellite-upload-area">
+                                        <i class="bi bi-cloud-arrow-up upload-icon"></i>
+                                        <h4>Upload Satellite Image</h4>
+                                        <p>Drag & drop or click to select</p>
+                                        <input type="file" id="satellite-upload" class="file-input" accept="image/*">
+                                    </div>
+                                    <div class="file-preview-container" id="satellite-preview-container" style="max-height: 200px; overflow: hidden;">
+                                        <img id="satellite-preview" class="img-fluid rounded" style="max-height: 200px; object-fit: contain;">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12 mb-3">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <button class="btn btn-primary w-100" id="upload-satellite"><i class="bi bi-cloud-arrow-up"></i> Upload</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn btn-success w-100" id="analyze-satellite" disabled><i class="bi bi-search"></i> Analyze</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-3"><i class="bi bi-bar-chart-fill"></i> Analysis Results</h4>
+                                        
+                                        <div id="satellite-loading" class="text-center d-none">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                            <p class="mt-2">Analyzing satellite imagery...</p>
+                                        </div>
+                                        
+                                        <div id="satellite-results" class="d-none analysis-result-container">
+                                            <!-- Fire Detection Status Card - Simplified -->
+                                            <div class="analysis-card mb-3">
+                                                <div class="analysis-card-header">
+                                                    <i class="bi bi-exclamation-triangle"></i> Fire Detection
+                                                </div>
+                                                <div class="text-center py-2">
+                                                    <div id="fire-detection-status">
+                                                        <h4 class="detection-text">NO FIRE DETECTED</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Key Observations Card -->
+                                            <div class="analysis-card mb-3">
+                                                <div class="analysis-card-header">
+                                                    <i class="bi bi-exclamation-circle"></i> Key Observations
+                                                </div>
+                                                <ul class="analysis-list ps-1 mb-1" id="observations-list" style="list-style-type: none;">
+                                                    <!-- Location will always be first -->
+                                                    <!-- Analysis points will be in the middle -->
+                                                    <!-- Conclusion will always be last -->
+                                                </ul>
+                                            </div>
+                                            
+                                            <button class="btn btn-outline-primary btn-sm w-100" id="export-analysis">
+                                                <i class="bi bi-download"></i> Export Analysis Report
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Top Right: California Fire Map -->
+            <div class="col-md-6 mb-4">
+                <div class="section">
+                    <h3 class="section-title">
+                        <i class="bi bi-map"></i>
+                        California Fire Map
+                    </h3>
+                    <div id="map"></div>
+                    <div class="map-filters">
+                        <div class="row mb-3 mt-3">
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <select class="form-select" id="display-type">
+                                        <option value="all">All Layers</option>
+                                        <option value="counties" selected>Counties Only</option>
+                                        <option value="ecoregions">Ecoregions Only</option>
+                                    </select>
+                                    <label for="display-type">Display Type</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <select class="form-select" id="county-select">
+                                        <!-- Will be populated by JavaScript -->
+                                    </select>
+                                    <label for="county-select">County</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <select class="form-select" id="ecoregion-select">
+                                        <!-- Will be populated by JavaScript -->
+                                    </select>
+                                    <label for="ecoregion-select">Ecoregion</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" id="start-date">
+                                    <label for="start-date">Start Date</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" id="end-date">
+                                    <label for="end-date">End Date</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <button class="btn btn-primary w-100" id="apply-filters">
+                                    <i class="bi bi-filter"></i> Apply Filters
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="data-info p-2 bg-light rounded">
+                                    <p class="mb-0">
+                                        <span id="data-status">Loading data...</span> • 
+                                        <strong>Displaying:</strong> <span id="feature-count">0</span> fires
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="map-loading" class="text-center mt-3 d-none">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading map data...</span>
+                            </div>
+                            <p>Loading map data...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Bottom Left: Fire Prediction Model with Weather Controls integrated -->
+            <div class="col-12 mb-4">
+                <div class="section">
+                    <h3 class="section-title">
+                        <i class="bi bi-calculator"></i>
+                        Fire Prediction Model
+                    </h3>
+                    
+                    <!-- Weather Data Controls section moved from bottom right -->
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5><i class="bi bi-calendar-date"></i> Weather Data Controls</h5>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-floating mb-3">
+                                        <input type="date" class="form-control" id="date-selector">
+                                        <label for="date-selector">Select Date</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-primary w-100" id="apply-date-filter">
+                                        <i class="bi bi-calendar-check"></i> Get Weather for Date
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-8">
+                            <div class="input-group">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-geo-alt"></i>
+                                </span>
+                                <input type="text" class="form-control" id="location-input" placeholder="Enter location (city, coordinates)">
+                                <button class="btn btn-outline-primary" id="search-location">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100" id="use-my-location">
+                                <i class="bi bi-cursor"></i> Use My Location
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <button class="btn btn-primary w-100" id="fetch-weather">
+                                <i class="bi bi-cloud-download"></i> Auto-fetch Weather
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-outline-secondary w-100" id="manual-entry">
+                                <i class="bi bi-pencil-square"></i> Manual Entry
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <form id="prediction-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="max_temp_c" placeholder="0" step="0.1">
+                                    <label for="max_temp_c">Max Temp (°C)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="min_temp_c" placeholder="0" step="0.1">
+                                    <label for="min_temp_c">Min Temp (°C)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="avg_temp_c" placeholder="0" step="0.1">
+                                    <label for="avg_temp_c">Avg Temp (°C)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="heating_deg_days_c" placeholder="0" step="0.1">
+                                    <label for="heating_deg_days_c">Heating Degree Days</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="cooling_deg_days_c" placeholder="0" step="0.1">
+                                    <label for="cooling_deg_days_c">Cooling Degree Days</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="precip_mm" placeholder="0" step="0.1">
+                                    <label for="precip_mm">Precipitation (mm)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="avg_humidity" placeholder="0" step="0.1">
+                                    <label for="avg_humidity">Avg Humidity (%)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="avg_wind_speed_knots" placeholder="0" step="0.1">
+                                    <label for="avg_wind_speed_knots">Wind Speed (knots)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="avg_dew_point_f" placeholder="0" step="0.1">
+                                    <label for="avg_dew_point_f">Dew Point (°F)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="avg_visibility_km" placeholder="0" step="0.1">
+                                    <label for="avg_visibility_km">Visibility (km)</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="avg_sea_level_pressure_mb" placeholder="0" step="0.1">
+                                    <label for="avg_sea_level_pressure_mb">Sea Level Pressure (mb)</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-danger w-100">
+                                    <i class="bi bi-calculator"></i> Calculate Fire Probability
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <div class="mt-4 d-none" id="model-result">
+                        <h4 class="text-center mb-3">Calculated Fire Probability</h4>
+                        <div class="gauge-container">
+                            <div class="gauge-ring">
+                                <div class="gauge-inner">
+                                    <div class="gauge-value" id="model-probability">62%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Remove the bottom right since we've moved it into the left column -->
+        </div>
+        
+        <!-- Full Width: AI Analysis Section -->
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="section">
+                    <h3 class="section-title">
+                        <i class="bi bi-robot"></i>
+                        AI Analysis
+                    </h3>
+                    <div id="llm-analysis">
+                        <div id="loading" class="text-center d-none">
+                            <div class="spinner-border text-danger" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2">Generating AI analysis...</p>
+                        </div>
+                        <div id="analysis-content">
+                            <h5><i class="bi bi-exclamation-triangle-fill text-warning me-2"></i>Fire Risk Assessment</h5>
+                            <p id="risk-assessment">Based on the current location and weather conditions, there is a <strong>moderate to high risk</strong> of wildfire. The combination of high temperatures (32°C), low precipitation (2.3mm), and moderate wind speeds (8 knots) create favorable conditions for fire ignition and spread.</p>
+                            
+                            <h5><i class="bi bi-list-check text-primary me-2"></i>Contributing Factors</h5>
+                            <ul id="contributing-factors">
+                                <li>Elevated temperatures above seasonal norms</li>
+                                <li>Low humidity levels (28%)</li>
+                                <li>Extended period without significant rainfall</li>
+                            </ul>
+                            
+                            <h5><i class="bi bi-lightbulb text-success me-2"></i>Recommended Actions</h5>
+                            <p id="recommended-actions">Monitor local fire warnings and adhere to any restrictions on outdoor activities. Ensure defensible space around structures, and prepare emergency evacuation plans. The risk is projected to remain elevated for the next 48-72 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts Section -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <!-- Load satellite.js before other scripts to ensure event listeners are properly registered -->
+    <script src="{{ url_for('static', path='/js/satellite.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/map.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/prediction.js') }}"></script>
+</body>
+</html> 

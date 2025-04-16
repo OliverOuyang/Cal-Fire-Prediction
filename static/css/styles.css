@@ -1,0 +1,747 @@
+body {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #343a40;
+}
+.navbar {
+    background: linear-gradient(135deg, #dc3545, #ff7043);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: 700;
+    color: white;
+}
+.main-container {
+    padding: 20px;
+    margin-top: 20px;
+}
+.section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.section:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+.section-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #dc3545;
+    border-bottom: 2px solid #f8d7da;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.section-title i {
+    margin-right: 8px;
+}
+#map {
+    height: 700px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.file-upload-container {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.file-upload-container:hover,
+.file-upload-container.highlight {
+    border-color: #ff5500;
+    background-color: rgba(255, 85, 0, 0.05);
+}
+.file-upload-container i {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Satellite image upload specific styles */
+.file-upload-container.drag-over {
+    border-color: #007bff;
+    background-color: rgba(0, 123, 255, 0.05);
+    transform: scale(1.02);
+}
+
+.file-upload-container.loading {
+    border-color: #6c757d;
+    background-color: rgba(108, 117, 125, 0.05);
+    cursor: wait;
+}
+
+.file-upload-container.loading .spinner-border {
+    margin-bottom: 15px;
+}
+
+#preview-image {
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+#preview-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Satellite error display styles */
+#satellite-error-details {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+#satellite-error-details h5 {
+    color: #721c24;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#satellite-error-details h6 {
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+#satellite-error-details ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+#satellite-error-details li {
+    margin-bottom: 4px;
+}
+
+#satellite-error-details pre {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    font-size: 0.8rem;
+    margin-top: 8px;
+}
+
+#satellite-error-details code {
+    color: #721c24;
+    background-color: rgba(220, 53, 69, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.probability-display {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px 0;
+    color: #dc3545;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+.form-floating > label {
+    padding: 12px;
+}
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    border: none;
+    box-shadow: 0 4px 6px rgba(220, 53, 69, 0.2);
+}
+.btn-danger:hover {
+    background: linear-gradient(135deg, #c82333, #bd2130);
+    box-shadow: 0 6px 8px rgba(220, 53, 69, 0.3);
+    transform: translateY(-2px);
+}
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+    transform: translateY(-2px);
+}
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0069d9, #004494);
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.3);
+    transform: translateY(-2px);
+}
+.btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    box-shadow: 0 4px 6px rgba(108, 117, 125, 0.2);
+    transform: translateY(-2px);
+}
+#llm-analysis {
+    background-color: #fff8e9;
+    border-left: 4px solid #ffc107;
+    padding: 20px;
+    border-radius: 8px;
+}
+#llm-analysis h5 {
+    color: #dc3545;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#llm-analysis p, #llm-analysis ul {
+    color: #495057;
+}
+.map-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+.map-controls .btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+}
+.results-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.gauge-container {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+}
+.gauge-ring {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#dc3545 0% 62%, #e9ecef 62% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gauge-inner {
+    width: 70%;
+    height: 70%;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+.gauge-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Fire Alert Marker Styles */
+.fire-alert-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5500;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 85, 0, 0.8);
+}
+
+.fire-alert-marker i {
+    color: white;
+    font-size: 18px;
+}
+
+/* Pulsing circle animation */
+.pulsing-circle {
+    animation: pulse-fire 2s infinite;
+}
+
+@keyframes pulse-fire {
+    0% {
+        opacity: 0.6;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0.6;
+        transform: scale(0.8);
+    }
+}
+
+/* Styles for the satellite analysis section */
+.file-upload-container.active {
+    border-color: #007bff;
+    background-color: rgba(0, 123, 255, 0.05);
+    transform: scale(1.02);
+}
+
+#satellite-analysis-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+#satellite-analysis-section h5 {
+    color: #dc3545;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 8px;
+}
+
+.analysis-list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.analysis-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #0d6efd;
+    transition: all 0.2s ease;
+}
+
+.analysis-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Location item styling - make it more prominent */
+.analysis-list li:first-child {
+    background-color: #e9f2ff;
+    border-left: 4px solid #0d6efd;
+    font-size: 1.05rem;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
+.analysis-list li:first-child strong {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.analysis-list li i.bi-geo-alt {
+    color: #0d6efd;
+    font-size: 1.2rem;
+}
+
+/* Icons for different analysis types */
+.analysis-list li i.bi-fire {
+    color: #dc3545;
+}
+
+.analysis-list li i.bi-cloud-fill {
+    color: #6c757d;
+}
+
+.analysis-list li i.bi-tree-fill {
+    color: #198754;
+}
+
+/* Different styling based on analysis type */
+.analysis-list li:has(i.bi-fire) {
+    border-left-color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.05);
+}
+
+.analysis-list li:has(i.bi-cloud-fill) {
+    border-left-color: #6c757d;
+    background-color: rgba(108, 117, 125, 0.05);
+}
+
+.analysis-list li:has(i.bi-tree-fill) {
+    border-left-color: #198754;
+    background-color: rgba(25, 135, 84, 0.05);
+}
+
+/* Conclusion styling - make it more visible */
+.analysis-list li .alert-danger {
+    border-radius: 8px;
+    margin-bottom: 0;
+    border-left: 4px solid #dc3545;
+    padding: 12px 15px;
+    font-weight: 500;
+}
+
+.analysis-list li .alert-danger strong {
+    color: #dc3545;
+    font-size: 1.05rem;
+    margin-right: 5px;
+}
+
+.analysis-list li .alert-danger i {
+    color: #dc3545;
+    font-size: 1.1rem;
+}
+
+/* Effect for the alert on hover */
+.analysis-list li .alert-danger:hover {
+    box-shadow: 0 3px 10px rgba(220, 53, 69, 0.3);
+    transform: translateY(-2px);
+}
+
+.terrain-text {
+    line-height: 1.6;
+    color: #495057;
+    border-left: 4px solid #28a745;
+    background-color: #f8f9fa;
+}
+
+/* Satellite probability gauge styles */
+.gauge-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.gauge-ring {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#dc3545 0% var(--percentage, 60%), #e9ecef var(--percentage, 60%) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gauge-inner {
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Loading animation for satellite analysis */
+.spinner-satellite {
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    border: 4px solid rgba(220, 53, 69, 0.2);
+    border-radius: 50%;
+    border-top-color: #dc3545;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Satellite Analysis Section */
+.satellite-upload {
+    border: 2px dashed #ced4da;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.satellite-upload.dragover {
+    background-color: #e9ecef;
+    border-color: #6c757d;
+}
+
+.satellite-upload i {
+    font-size: 40px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.satellite-preview {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.satellite-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.satellite-preview .overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.satellite-results {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Probability Gauge */
+.probability-gauge {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: #e9ecef;
+    border-radius: 15px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.probability-gauge-fill {
+    height: 100%;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #28a745, #ffc107, #dc3545);
+    position: relative;
+    transition: width 1s ease-in-out;
+}
+
+.probability-value {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #212529;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+/* Observations List */
+.observations-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.observation-item {
+    padding: 8px;
+    border-left: 3px solid #0d6efd;
+    background-color: #f8f9fa;
+    border-radius: 0 4px 4px 0;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.terrain-scrollable {
+    padding: 12px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.gauge-ring {
+    transition: background 0.5s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.gauge-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.gauge-value {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.analysis-card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.analysis-card-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.analysis-result-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Risk level colors */
+.risk-low {
+    color: #28a745;
+}
+
+.risk-medium {
+    color: #ffc107;
+}
+
+.risk-high {
+    color: #dc3545;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .gauge-ring {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+    .analysis-card {
+        padding: 10px;
+    }
+    
+    .gauge-value {
+        font-size: 1.5rem;
+    }
+}
+
+#satellite-loading {
+    text-align: center;
+    padding: 30px;
+}
+
+#satellite-loading i {
+    font-size: 40px;
+    color: #17a2b8;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Export Button */
+.export-btn {
+    margin-top: 20px;
+}
+
+/* Analysis Section */
+.analysis-section {
+    border-top: 1px solid #dee2e6;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.analysis-section h4 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.analysis-section h4 i {
+    margin-right: 10px;
+    color: #17a2b8;
+}
+
+/* Fire Detection Status Styles */
+#fire-detection-status {
+    padding: 20px 0;
+}
+
+.detection-icon {
+    margin-bottom: 15px;
+}
+
+.detection-text {
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+/* Fire Detected State */
+.fire-detected .detection-icon i {
+    color: #dc3545 !important;
+    animation: pulse-red 2s infinite;
+}
+
+.fire-detected .detection-text {
+    color: #dc3545;
+}
+
+/* No Fire Detected State */
+.no-fire-detected .detection-icon i {
+    color: #28a745 !important;
+}
+
+.no-fire-detected .detection-text {
+    color: #28a745;
+}
+
+/* Animation for fire detected state */
+@keyframes pulse-red {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Hide remove file button */
+.remove-file {
+    display: none !important;
+} 
